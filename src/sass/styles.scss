@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&family=Roboto:wght@300;400&family=Rubik&family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import './layout/navbar';
+@import './layout/footer';
+@import './layout/form';
+@import './abstracts/variables';
+@import './sections/skills';
+@import './sections/principal';
+@import './sections/certificates';
+@import './sections/aboutMe';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.text-pages {
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    width: 30vw;
+    border-radius: 30px;
+}
+
+
+
+.textProjects {
+    display: flex;
+    justify-content: center;
+}
+
+.imageCertiFont {
+    width: 500px;
+    height: 300px;
+}
+
+.card {
+    width: 18rem;
+}

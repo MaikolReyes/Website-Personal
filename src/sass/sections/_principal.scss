@@ -1,0 +1,40 @@
+.backgroundColor {
+    background-color: #d2d8d6;
+    background-image: linear-gradient(315deg, #232323 0%, #2263c0 70%);
+    // #d2d8d6 0%
+}
+
+
+.heroImage {
+    background-image: url(../img/image-principal.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+
+    .heroText {
+        text-align: center;
+        width: 50%;
+
+        .textName {
+            color: white;
+            font-family: 'Roboto Mono', monospace;
+            border-radius: 30px;
+            background-color: #2772dc;
+            opacity: 1;
+            font-size: 2rem;
+        }
+
+        .textDescription {
+            color: white;
+            font-size: 18px;
+            font-family: 'Roboto Mono', monospace;
+            border-radius: 30px;
+            background-color: #2772dc;
+            opacity: 1;
+        }
+
+    }
+
+}

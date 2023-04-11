@@ -1,0 +1,22 @@
+.certificatePosition {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 30px;
+}
+
+.textCertifications {
+    display: flex;
+    justify-content: center;
+}
+
+.textSections {
+    background-color: white;
+    color: black;
+    margin: 50px 50px;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    width: 30vw;
+    border-radius: 20px;
+}

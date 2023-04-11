@@ -1,0 +1,94 @@
+.textSkills {
+    font-family: $textPrimary;
+    text-align: center;
+    width: 50vw;
+    color: white;
+    border-radius: 30px;
+}
+
+.gifSkills {
+    border-radius: 30px;
+    width: 380px;
+    height: 260px;
+}
+
+.textHabilities {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    width: 25vw;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.listSkills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    justify-items: center;
+    align-content: center;
+}
+
+.containerSkills {
+    display: flex;
+    margin-top: 50px;
+}
+
+.containerTextSkills {
+    margin-left: 30px;
+    margin-right: 80px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+}
+
+.icons-skill:nth-child(1) a:before {
+    background: #fb8714;
+}
+
+.icons-skill:nth-child(2) a:before {
+    background: #3092d3;
+}
+
+.icons-skill:nth-child(3) a:before {
+    background: #792ad9;
+}
+
+.icons-skill:nth-child(4) a:before {
+    background: #e5d11e;
+}
+
+.icons-skill:nth-child(5) a:before {
+    background: #4badee;
+}
+
+.icons-skill:nth-child(6) a:before {
+    background: #2bd23e;
+}
+
+.icons-skill:nth-child(7) a:before {
+    background: #f345bf;
+}
+
+.icons-skill:nth-child(8) a:before {
+    background: #1c85da;
+}
+
+.icons-skill:nth-child(9) a:before {
+    background: #3092d3;
+}
+
+.icons-skill:nth-child(10) a:before {
+    background: #3092d3;
+}
+
+.icons-skill:nth-child(11) a:before {
+    background: #3092d3;
+}
+
+.icons-skill:nth-child(12) a:before {
+    background: #3092d3;
+}
