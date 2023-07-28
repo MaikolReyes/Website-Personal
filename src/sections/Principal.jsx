@@ -1,40 +1,73 @@
+// Imports React
 import React from 'react'
+// Personal Image
 import imagenPersonal from '../img/IMG_1905.jpg'
-import { Skills } from './Skills'
-import { WebPages } from './WebPages'
+//Sections
+import { Services } from './Services';
+import { Portfolio } from "./Portfolio";
+import { FormContact } from "../components/FormContact";
+import { Certifications } from './Certifications';
 
 export const Principal = () => {
     return (
         <>
-            <div className="heroImage">
+            <div className="heroImage" id='home'>
                 <div className="heroText animate__animated animate__backInLeft">
-                    <h1 className="textName">¡Hola!  Mi nombre es <span>Maikol Reyes</span></h1>
-                    <p className="textDescription">Soy un Desarrollador Front-End en constante evolucion
+                    <p className="textName d-flex">Hola, Mi nombre es</p>
+                    <h2 className='textNamePrincipal mt-5'>Maikol Reyes</h2>
+                    <p className="textDescription">Soy un <span className='textResalt'>Desarrollador Frontend</span> en constante evolucion
                         en busqueda de experiencia en el mundo IT, Siempre estoy en busca de nuevos desafíos
-                        y oportunidades de aprendizaje</p>
+                        y oportunidades de aprendizaje.</p>
+                    <div className='containerButtonsPrincipal'>
+                        <a className='buttonsPrincipal btn' href="#contacto">Contacto</a>
+                        <a className='buttonsPrincipal btn'>CV</a>
+                    </div>
                 </div>
-            </div >
+            </div>
 
             <div className='textAboutMe'>
-                <h2 className='text-pages bg-white text-dark mt-5'>Acerca de Mi</h2>
+                <h2 className='titleAboutMe'>Acerca de mi</h2>
             </div>
 
-            <div className='d-flex align-content-center'>
-
-                <div className='containerImage'>
+            <div className='containerAboutMe'>
+                <div>
                     <img className='imagenPersonal' src={imagenPersonal} alt="" />
                 </div>
-                <div>
-                    <p className='textDescription text-white'>Soy un progamador especializado en el front-end Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Iusto, obcaecati dignissimos. Officiis ex maiores molestias tempore cupiditate, ducimus ut iure eligendi
-                        soluta nulla repudiandae totam quos recusandae, enim dolor saepe provident, quo aliquam ipsum maxime
-                        blanditiis alias! Officia ex ipsa est ad molestias! Neque sit dolores perspiciatis et repellendus at?</p>
+                <div className='containerTextAboutMe'>
+                    <p className='textDescriptionAboutMe'>Soy un progamador especializado en el Desarrollo Frontend, Mis conocimientos técnicos son sólidos y completos, tambien poseo habilidades destacadas en tecnologías clave como HTML, CSS, SASS, Boostraps, JavaScript, Typescript, React y Node.
+                        Siempre estoy en constante busqueda para mejorar mis habilidades como programador y mantenerme al día con las últimas tendencias y tecnologías en el mundo del Desarrollo Frontend.
+                    </p>
+                    <p className='textDescriptionAboutMe' >
+                        En resumen, como desarrollador frontend, soy un profesional altamente calificado, comprometido con la creación de soluciones personalizadas y atractivas que brinden a los usuarios una experiencia excepcional.
+                        Si estás buscando un desarrollador frontend con estas características, no busques más y ponte en contacto conmigo para comenzar a trabajar juntos en tu próximo proyecto.
+                    </p>
                 </div>
             </div>
 
-            <Skills />
+            <div className="containerSkills">
+                <div className='d-flex flex-column align-items-center'>
+                    <h2 className="titleHabilities">Habilidades</h2>
+                    <div>
+                        <ul className="listSkills">
+                            <li className="icons-skill"><a className="icons-image" href="#"><i className="fa-brands fa-html5 icon"></i></a></li>
+                            <li className="icons-skill"><a className="icons-image" href="#"><i className="fa-brands fa-css3-alt icon"></i></a></li>
+                            <li className="icons-skill"><a className="icons-image" href="#"><i className="fa-brands fa-bootstrap icon"></i></a></li>
+                            <li className="icons-skill"><a className="icons-image" href="#"><i className="fa-brands fa-sass icon"></i></a></li>
+                            <li className="icons-skill"><a className="icons-image" href="#"><i className="fa-brands fa-square-js icon"></i></a></li>
+                            <li className="icons-skill"><a className="icons-image" href="#"><i className="fa-brands fa-react icon"></i></a></li>
+                            <li className="icons-skill"><a className="icons-image" href="#"><i className="fa-brands fa-node icon"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-            <WebPages />
+            <Services />
+
+            <Portfolio />
+
+            <Certifications />
+
+            <FormContact />
         </>
     )
 }

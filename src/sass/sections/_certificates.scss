@@ -1,12 +1,47 @@
-.certificatePosition {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    gap: 30px;
+.titleCertificate {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
 }
+
+.certificateContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
 
 .textCertifications {
     display: flex;
+    justify-content: center;
+}
+
+.articleCertificationsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.articleCertifications {
+    text-align: center;
+    width: 60%;
+}
+
+.imagesCertificate {
+    display: block;
+    margin: auto;
+    width: 40%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+
+.imageContainer {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 

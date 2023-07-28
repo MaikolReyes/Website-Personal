@@ -11,13 +11,19 @@ export const FormContact = () => {
 
     return (
         <>
-            <div className="textForm d-flex justify-content-center animate__animated animate__backInLeft">
-                <h4 className="text-pages mt-5 text-white">Contactarme</h4>
+            <div className="textProjectsPrincipal pt-5" id="contacto" >
+                <h4 className="titleForm">Contactarme</h4>
             </div>
+
+            <h5 className="textSecondaryForm">¡Hola! Si estás buscando un desarrollador frontend de alta calidad, has venido al lugar correcto.
+                Si queres contratar alguno de mis servicios o tienes alguna propuesta laboral,
+                no dudes en contactarme completando el formulario y a la brevedad me estare contactando.</h5>
+
+
             <div className="form-contact animate__animated animate__backInLeft">
                 <div className="content">
                     <div className="contact-wrapper">
-                        <div className="contact-form">
+                        <div className="contact-form bg-dark">
                             <form onSubmit={sendForm} action="https://formsubmit.co/maikolreyes209@gmail.com" method="POST">
                                 <p>
                                     <label for="name">Nombre</label>
@@ -29,7 +35,7 @@ export const FormContact = () => {
                                 </p>
                                 <p>
                                     <label for="telefono">Teléfono</label>
-                                    <input required type="tel" name="Telefono" id="telefono" />
+                                    <input required type="number" name="Telefono" id="telefono" />
                                 </p>
                                 <p>
                                     <label for="asunto">Asunto</label>

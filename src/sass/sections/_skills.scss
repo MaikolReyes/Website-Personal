@@ -1,21 +1,24 @@
+.titleHabilities {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+
 .textSkills {
-    font-family: $textPrimary;
+    font-family: 'Inter', sans-serif;
     text-align: center;
     width: 50vw;
     color: white;
     border-radius: 30px;
 }
 
-.gifSkills {
-    border-radius: 30px;
-    width: 380px;
-    height: 260px;
-}
 
 .textHabilities {
-    color: white;
+    color: black;
     font-size: 2rem;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Inter', sans-serif;
     text-align: center;
     width: 25vw;
     border-radius: 20px;
@@ -23,16 +26,15 @@
 }
 
 .listSkills {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
     gap: 30px;
-    justify-items: center;
-    align-content: center;
 }
 
 .containerSkills {
     display: flex;
     margin-top: 50px;
+    justify-content: center;
 }
 
 .containerTextSkills {
@@ -58,37 +60,17 @@
 }
 
 .icons-skill:nth-child(4) a:before {
-    background: #e5d11e;
-}
-
-.icons-skill:nth-child(5) a:before {
-    background: #4badee;
-}
-
-.icons-skill:nth-child(6) a:before {
-    background: #2bd23e;
-}
-
-.icons-skill:nth-child(7) a:before {
     background: #f345bf;
 }
 
-.icons-skill:nth-child(8) a:before {
-    background: #1c85da;
+.icons-skill:nth-child(5) a:before {
+    background: #e5d11e;
 }
 
-.icons-skill:nth-child(9) a:before {
-    background: #3092d3;
+.icons-skill:nth-child(6) a:before {
+    background: #4badee;
 }
 
-.icons-skill:nth-child(10) a:before {
-    background: #3092d3;
-}
-
-.icons-skill:nth-child(11) a:before {
-    background: #3092d3;
-}
-
-.icons-skill:nth-child(12) a:before {
-    background: #3092d3;
+.icons-skill:nth-child(7) a:before {
+    background: #2bd23e;
 }

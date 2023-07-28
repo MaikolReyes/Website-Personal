@@ -1,13 +1,18 @@
 .navbar {
+    position: fixed;
+    z-index: +2;
+    width: 100vw;
+    height: 65px;
 
     .collapse {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
+        margin-right: 5rem;
 
         .navbar-nav {
             display: flex;
             justify-content: space-around;
-            gap: 20px;
+            gap: 30px;
 
             * {
                 transition: all .35s ease;
@@ -17,6 +22,8 @@
                 color: rgb(255, 255, 255);
                 position: relative;
                 font-family: 'Roboto Mono', monospace;
+                font-size: 18px;
+                text-decoration: none;
 
                 &:hover {
                     color: rgb(203, 203, 203);
@@ -40,8 +47,8 @@
     content: '';
     right: 0;
     top: 0;
-    border-top: 3px solid #639ceb;
-    border-right: 3px solid #639ceb;
+    border-top: 3px solid #E8CF50;
+    border-right: 3px solid #E8CF50;
     transform: translate(-100%, 50%);
 }
 
@@ -49,8 +56,8 @@
     content: '';
     left: 0;
     bottom: 0;
-    border-bottom: 3px solid #639ceb;
-    border-left: 3px solid #639ceb;
+    border-bottom: 3px solid #E8CF50;
+    border-left: 3px solid #E8CF50;
     transform: translate(100%, -50%);
 }
 

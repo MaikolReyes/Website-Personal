@@ -1,11 +1,39 @@
+.titleAboutMe {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+
 .imagenPersonal {
-    width: 50vw;
-    height: 400px;
+    width: 420px;
+    height: 530px;
     margin-top: 20px;
+    border-radius: 20px;
 }
 
 .textAboutMe {
     display: flex;
     justify-content: center;
+    margin-top: 40px;
+}
 
+.textDescriptionAboutMe {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: black;
+}
+
+.containerAboutMe {
+    display: flex;
+    justify-content: center;
+}
+
+.containerTextAboutMe {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    width: 20vw;
+    margin-left: 80px;
 }

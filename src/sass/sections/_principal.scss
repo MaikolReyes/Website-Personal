@@ -1,40 +1,63 @@
-.backgroundColor {
-    background-color: #d2d8d6;
-    background-image: linear-gradient(315deg, #232323 0%, #2263c0 70%);
-    // #d2d8d6 0%
+.heroImage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero-principal.jpg);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    height: 100vh;
 }
 
-
-.heroImage {
-    background-image: url(../img/image-principal.jpg);
-    height: 100vh;
+.heroText {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 180px;
+    align-items: flex-start;
 
-    .heroText {
-        text-align: center;
-        width: 50%;
+    .textName {
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        position: absolute;
+        padding-top: 15px;
+    }
 
-        .textName {
-            color: white;
-            font-family: 'Roboto Mono', monospace;
-            border-radius: 30px;
-            background-color: #2772dc;
-            opacity: 1;
-            font-size: 2rem;
+    .textNamePrincipal {
+        color: white;
+        font-size: 100px;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+    }
+
+    .textDescription {
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        width: 35vw;
+
+        .textResalt {
+            color: #E8CF50;
+            font-weight: bold;
+            border-color: black;
         }
+    }
 
-        .textDescription {
-            color: white;
-            font-size: 18px;
-            font-family: 'Roboto Mono', monospace;
-            border-radius: 30px;
-            background-color: #2772dc;
-            opacity: 1;
+    .containerButtonsPrincipal {
+        display: flex;
+        gap: 20px;
+
+        .buttonsPrincipal {
+            background-color: #E8CF50;
+            width: 10vw;
+            font-family: 'Inter', sans-serif;
+            font-weight: bold;
+            padding: 10px;
+
+            &:hover {
+                background-color: rgb(50, 55, 59);
+                color: rgb(235, 235, 235);
+            }
         }
-
     }
 
 }

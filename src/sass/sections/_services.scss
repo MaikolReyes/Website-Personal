@@ -1,0 +1,76 @@
+.titleServices {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.containerGeneralServices {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.carousel {
+    justify-content: center;
+}
+
+
+.containerCards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    width: 400px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-control-prev {
+    margin: auto;
+    margin-left: 250px;
+    width: 32px;
+    height: 32px;
+}
+
+.carousel-control-next {
+    margin: auto;
+    margin-right: 250px;
+    width: 32px;
+    height: 32px;
+}
+
+.containerTextServices {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 200px;
+
+    .textServices {
+        width: 35vw;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+    }
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.imageServices {
+    width: 100%;
+    height: 280px;
+}

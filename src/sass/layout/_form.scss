@@ -1,17 +1,30 @@
-$principalColor: #2772dc;
+.titleForm {
+    margin-top: 80px;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.textSecondaryForm {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    line-height: 30px;
+}
 
 .form-contact {
-    color: black;
+    color: white;
     width: 100%;
     height: auto;
-
 }
 
 .content {
     display: flex;
     justify-content: center;
     padding: 3em;
-
 }
 
 .contact-wrapper>* {
@@ -19,7 +32,6 @@ $principalColor: #2772dc;
 }
 
 .contact-form {
-    background-color: #fdfdfd;
     font-family: 'roboto', sans-serif;
     border-radius: 20px;
 }
@@ -46,20 +58,20 @@ $principalColor: #2772dc;
     border: none;
     background: none;
     outline: none;
-    border-bottom: 1px solid #2772dc;
-    color: #000000;
+    border-bottom: 1px solid #E8CF50;
+    color: white;
 }
 
 .contact-form form button {
-    background: grey;
+    background: rgb(52, 52, 52);
     text-transform: uppercase;
     padding: 1em;
 }
 
 .contact-form form button:hover,
 .contact-form form button:focus {
-    background: $principalColor;
-    color: #000;
+    background: #E8CF50;
+    color: white;
     outline: none;
     transition: background-color 1s ease-out;
 }
