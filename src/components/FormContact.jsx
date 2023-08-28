@@ -11,13 +11,14 @@ export const FormContact = () => {
 
     return (
         <>
-            <div className="textProjectsPrincipal pt-5" id="contacto" >
-                <h4 className="titleForm">Contactarme</h4>
-            </div>
+            <section className="sectionForm" id="contacto" >
+                <h2 className="titleForm">Contactarme</h2>
+                <p className="subtitleForm">¡Hola! Si estás buscando un desarrollador frontend de alta calidad, has venido al lugar correcto.
+                    Si queres contratar alguno de mis servicios o tienes alguna propuesta laboral,
+                    no dudes en contactarme completando el formulario y a la brevedad me estare contactando.</p>
+            </section>
 
-            <h5 className="textSecondaryForm">¡Hola! Si estás buscando un desarrollador frontend de alta calidad, has venido al lugar correcto.
-                Si queres contratar alguno de mis servicios o tienes alguna propuesta laboral,
-                no dudes en contactarme completando el formulario y a la brevedad me estare contactando.</h5>
+
 
 
             <div className="form-contact animate__animated animate__backInLeft">
@@ -26,23 +27,23 @@ export const FormContact = () => {
                         <div className="contact-form bg-dark">
                             <form onSubmit={sendForm} action="https://formsubmit.co/maikolreyes209@gmail.com" method="POST">
                                 <p>
-                                    <label for="name">Nombre</label>
+                                    <label htmlFor="name">Nombre</label>
                                     <input required type="text" name="Nombre" id="name" />
                                 </p>
                                 <p>
-                                    <label for="email">Correo Electrónico</label>
+                                    <label htmlFor="email">Correo Electrónico</label>
                                     <input required type="email" name="Gmail" id="email" />
                                 </p>
                                 <p>
-                                    <label for="telefono">Teléfono</label>
+                                    <label htmlFor="telefono">Teléfono</label>
                                     <input required type="number" name="Telefono" id="telefono" />
                                 </p>
                                 <p>
-                                    <label for="asunto">Asunto</label>
+                                    <label htmlFor="asunto">Asunto</label>
                                     <input required type="text" name="Asunto" id="asunto" />
                                 </p>
                                 <p className="block">
-                                    <label for="mensajes">Mensaje</label>
+                                    <label htmlFor="mensajes">Mensaje</label>
                                     <textarea required name="Mensaje" id="Mensaje" cols="50" rows="3"></textarea>
                                 </p>
                                 <p className="block">

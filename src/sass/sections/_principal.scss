@@ -1,63 +1,68 @@
 .heroImage {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero-principal.jpg);
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
     background-size: cover;
     align-items: center;
     display: flex;
+    width: 100%;
     height: 100vh;
 }
 
-.heroText {
+.containerHeroText {
     display: flex;
     flex-direction: column;
     font-family: 'Ubuntu', sans-serif;
     margin-left: 180px;
     align-items: flex-start;
+}
 
-    .textName {
-        color: white;
-        font-family: 'Inter', sans-serif;
-        font-size: 18px;
-        position: absolute;
-        padding-top: 15px;
+.textName {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.textNamePrincipal {
+    color: white;
+    font-size: 74px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.textDescription {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    width: 35vw;
+}
+
+.textResalt {
+    font-family: 'Inter', sans-serif;
+    color: #E8CF50;
+    font-weight: bold;
+    border-color: black;
+}
+
+.containerButtonsPrincipal {
+    display: flex;
+    gap: 20px;
+}
+
+.buttonsPrincipal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #E8CF50;
+    width: 180px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+
+    &:hover {
+        background-color: rgb(214, 214, 214);
+        color: black;
     }
-
-    .textNamePrincipal {
-        color: white;
-        font-size: 100px;
-        font-family: 'Inter', sans-serif;
-        font-weight: bold;
-    }
-
-    .textDescription {
-        color: white;
-        font-family: 'Inter', sans-serif;
-        font-size: 18px;
-        width: 35vw;
-
-        .textResalt {
-            color: #E8CF50;
-            font-weight: bold;
-            border-color: black;
-        }
-    }
-
-    .containerButtonsPrincipal {
-        display: flex;
-        gap: 20px;
-
-        .buttonsPrincipal {
-            background-color: #E8CF50;
-            width: 10vw;
-            font-family: 'Inter', sans-serif;
-            font-weight: bold;
-            padding: 10px;
-
-            &:hover {
-                background-color: rgb(50, 55, 59);
-                color: rgb(235, 235, 235);
-            }
-        }
-    }
-
 }

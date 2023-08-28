@@ -11,7 +11,10 @@
 @import './sections/aboutMe';
 @import './sections/services';
 @import './sections/portfolio';
-@import './bases/mediaQuerys';
+@import './bases/mediaQuerysLaptop';
+@import './bases/mediaQuerysTablet';
+@import './bases/mediaQuerysMobile';
+
 
 
 * {
@@ -19,60 +22,4 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    text-decoration: none;
-}
-
-.btn {
-    background-color: #E8CF50;
-    width: 8vw;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    padding: 10px;
-
-    &:hover {
-        background-color: rgb(214, 214, 214);
-        color: black
-    }
-}
-
-
-.text-pages {
-    font-size: 30px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-    text-align: center;
-    width: 30vw;
-    border-radius: 30px;
-}
-
-
-.textSections {
-    background-color: white;
-    color: black;
-    margin: 50px 50px;
-    font-size: 35px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    text-align: center;
-    width: 30vw;
-    border-radius: 20px;
-}
-
-.containerCertificate {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-
-.textProjects {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-top: 2rem;
-}
-
-.textProjectsPrincipal {
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
 }

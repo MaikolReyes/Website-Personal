@@ -1,25 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&family=Roboto:wght@300;400&family=Rubik&family=Ubuntu:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 .navbar {
   position: fixed;
   z-index: 2;
   width: 100vw;
   height: 65px;
 }
+
 .navbar .collapse {
   display: flex;
   justify-content: flex-end;
   margin-right: 5rem;
 }
+
 .navbar .collapse .navbar-nav {
   display: flex;
   justify-content: space-around;
   gap: 30px;
 }
+
 .navbar .collapse .navbar-nav * {
   transition: all 0.35s ease;
 }
+
 .navbar .collapse .navbar-nav .nav-link {
   color: rgb(255, 255, 255);
   position: relative;
@@ -27,6 +32,7 @@
   font-size: 18px;
   text-decoration: none;
 }
+
 .navbar .collapse .navbar-nav .nav-link:hover {
   color: rgb(203, 203, 203);
 }
@@ -175,7 +181,7 @@
   padding: 3em;
 }
 
-.contact-wrapper > * {
+.contact-wrapper>* {
   padding: 4em;
 }
 
@@ -316,6 +322,7 @@
   margin-left: 180px;
   align-items: flex-start;
 }
+
 .heroText .textName {
   color: white;
   font-family: "Inter", sans-serif;
@@ -323,27 +330,32 @@
   position: absolute;
   padding-top: 15px;
 }
+
 .heroText .textNamePrincipal {
   color: white;
   font-size: 100px;
   font-family: "Inter", sans-serif;
   font-weight: bold;
 }
+
 .heroText .textDescription {
   color: white;
   font-family: "Inter", sans-serif;
   font-size: 18px;
   width: 35vw;
 }
+
 .heroText .textDescription .textResalt {
   color: #E8CF50;
   font-weight: bold;
   border-color: black;
 }
+
 .heroText .containerButtonsPrincipal {
   display: flex;
   gap: 20px;
 }
+
 .heroText .containerButtonsPrincipal .buttonsPrincipal {
   background-color: #E8CF50;
   width: 10vw;
@@ -351,6 +363,7 @@
   font-weight: bold;
   padding: 10px;
 }
+
 .heroText .containerButtonsPrincipal .buttonsPrincipal:hover {
   background-color: rgb(50, 55, 59);
   color: rgb(235, 235, 235);
@@ -507,6 +520,7 @@
   text-align: center;
   margin-top: 200px;
 }
+
 .containerTextServices .textServices {
   width: 35vw;
   text-align: center;
@@ -563,6 +577,7 @@
   flex-direction: column;
   text-align: center;
 }
+
 .containerTextPortfolio .textPortfolio {
   width: 50%;
   text-align: center;
@@ -610,6 +625,7 @@
   font-weight: bold;
   padding: 10px;
 }
+
 .btn:hover {
   background-color: rgb(214, 214, 214);
   color: black;
@@ -652,4 +668,6 @@
   display: flex;
   justify-content: center;
   padding-top: 2rem;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */

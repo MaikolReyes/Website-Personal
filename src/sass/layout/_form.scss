@@ -1,18 +1,22 @@
+.sectionForm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 150px 0 20px 0;
+}
+
 .titleForm {
-    margin-top: 80px;
     font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-weight: 600;
 }
 
-.textSecondaryForm {
+.subtitleForm {
     text-align: center;
-    margin: auto;
     margin-top: 20px;
-    width: 50%;
-    font-size: 18px;
+    width: 40%;
+    font-size: 16px;
     font-family: 'Inter', sans-serif;
-    line-height: 30px;
 }
 
 .form-contact {
@@ -24,7 +28,6 @@
 .content {
     display: flex;
     justify-content: center;
-    padding: 3em;
 }
 
 .contact-wrapper>* {

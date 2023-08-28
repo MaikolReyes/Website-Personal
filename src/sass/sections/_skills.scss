@@ -1,50 +1,21 @@
-.titleHabilities {
+.sectionSkills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+}
+
+.titleSkills {
     font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-weight: 600;
-}
-
-.textSkills {
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    width: 50vw;
-    color: white;
-    border-radius: 30px;
-}
-
-
-.textHabilities {
-    color: black;
-    font-size: 2rem;
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    width: 25vw;
-    border-radius: 20px;
-    margin-bottom: 50px;
 }
 
 .listSkills {
     display: flex;
     justify-content: center;
     gap: 30px;
-}
-
-.containerSkills {
-    display: flex;
-    margin-top: 50px;
-    justify-content: center;
-}
-
-.containerTextSkills {
-    margin-left: 30px;
-    margin-right: 80px;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50vw;
 }
 
 .icons-skill:nth-child(1) a:before {

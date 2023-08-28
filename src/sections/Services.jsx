@@ -1,9 +1,5 @@
 import React from 'react'
 //Images of Services
-import desarrolloWeb from '../img/desarrollo-web.png'
-import ecommerce2 from '../img/ecommerce-2.png'
-import posicionamiento from '../img/posicionamiento-2.png'
-import diseno from '../img/diseno.jpg'
 
 export const Services = () => {
     return (

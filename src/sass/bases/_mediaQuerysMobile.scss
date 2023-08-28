@@ -1,0 +1,110 @@
+@media screen and (max-width:420px) {
+
+    .heroImage {
+        background-image: none;
+        box-shadow: none;
+        height: 500px;
+    }
+
+    .containerHeroText {
+        text-align: center;
+        align-items: center;
+    }
+
+    .sectionAboutMe {
+        margin: 0 0 10px 0;
+    }
+
+    .textName {
+        color: black;
+    }
+
+    .textNamePrincipal {
+        color: black;
+    }
+
+    .textDescription {
+        color: black;
+        width: 80vw;
+    }
+
+    .containerAboutMe {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .containerTextAboutMe {
+        margin-left: 0;
+        width: 70%;
+    }
+
+    .DescriptionAboutMe {
+        font-size: 14px;
+    }
+
+    .listSkills {
+        flex-wrap: wrap;
+    }
+
+    .ol,
+    ul {
+        padding-left: 0rem;
+    }
+
+    .imageProject {
+        width: 300px;
+        height: 150px;
+    }
+
+    .containerImageProjects {
+        width: 300px;
+        height: 170px;
+    }
+
+    .containerTextProjects {
+        width: 300px;
+    }
+
+    .titleProject {
+        font-size: 24px;
+    }
+
+    .descriptionProjects {
+        line-height: 20px;
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .containerButtons {
+        margin-top: 0;
+    }
+
+    .buttonPortfolio {
+        width: 120px;
+    }
+
+    .subtitleCertification {
+        width: 80%;
+    }
+
+    .content {
+        width: 90vw;
+    }
+
+    .subtitleForm {
+        width: 90vw;
+    }
+
+    .contact-wrapper>* {
+        padding: 1em;
+    }
+
+    .textDerechos {
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+}

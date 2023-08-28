@@ -13,11 +13,11 @@ export const Footer = () => {
                 <li className="icons mb-5 mt-5">
                     <a className="icons-image" target="_blank" href="https://www.linkedin.com/in/maikol-reyes/"><i className="fab fa-linkedin-in icon"></i></a>
                 </li>
-                <li className="icons mb-5 mt-5">
+                {/* <li className="icons mb-5 mt-5">
                     <a className="icons-image" target="_blank" href="https://www.maikolreyes209@gmail.com"><i className="fab fa-google-plus-g icon"></i></a>
-                </li>
+                </li> */}
             </ul>
-            <h4 className='textDerechos mb-0 pb-4'>Copyright ©2023 Maikol Reyes, Todos los derechos reservados.</h4>
+            <p className='textDerechos'>Copyright ©2023 Maikol Reyes, Todos los derechos reservados.</p>
         </footer>
     )
 }
