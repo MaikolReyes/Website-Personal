@@ -5,7 +5,7 @@ export const Navbar = () => {
         <nav className="navbar navbar-expand-lg bg-dark">
             <div className="container-fluid">
 
-                <a className="navbar-brand" href="#home"><h3 className="text-white mx-5">Maikol Reyes</h3></a>
+                <a className="navbar-brand" href="#home"><h3 className="text-white mx-5 my-auto">Maikol Reyes</h3></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

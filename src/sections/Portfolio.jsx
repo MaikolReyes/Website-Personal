@@ -1,6 +1,7 @@
 import React from "react"
-import image from '../img/franquicias360-project.png'
+import projectFranquicias360 from '../img/franquicias360-project.png'
 import projectZulia from '../img/zulia-1.png'
+import projectMinzke from '../img/minzke-project.png'
 
 export const Portfolio = () => {
 
@@ -17,7 +18,7 @@ export const Portfolio = () => {
             <div className="containerProjects animate__animated animate__backInLeft">
 
                 <div className="containerImageProjects">
-                    <img className="imageProject" src={image} alt="" />
+                    <img className="imageProject" src={projectFranquicias360} alt="" />
                 </div>
                 <div className="containerTextProjects bg-dark">
                     <h3 className="titleProject">Franquicias360</h3>
@@ -45,6 +46,22 @@ export const Portfolio = () => {
                 <div className="containerImageProjects">
                     <img className="imageProject" src={projectZulia} alt="" />
                 </div>
+            </div>
+
+
+            <div className="containerProjects animate__animated animate__backInLeft">
+                <div className="containerImageProjects">
+                    <img className="imageProject" src={projectMinzke} alt="" />
+                </div>
+                <div className="containerTextProjects bg-dark">
+                    <h3 className="titleProject">Minzke</h3>
+                    <p className="descriptionProjects">Minzke fue mi primer proyecto como programador y me ayudo a asentar las bases de mis conocimientos, es un ecommerce de herramientas electricas y manuales posee un carrito de compras hecho únicamente con JavaScript.</p>
+                    <div className="containerButtons">
+                        <a className="buttonPortfolio btn" href="https://maikolreyes.github.io/Minzke-Ecommerce/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square p-2"></i>Deploy</a>
+                        <a className="buttonPortfolio btn" href="https://github.com/MaikolReyes/Minzke-Ecommerce" target="_blank"><i class="fa-brands fa-github p-2"></i>Github</a>
+                    </div>
+                </div>
+
             </div>
         </>
     )

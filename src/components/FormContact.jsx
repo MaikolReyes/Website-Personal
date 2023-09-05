@@ -12,13 +12,11 @@ export const FormContact = () => {
     return (
         <>
             <section className="sectionForm" id="contacto" >
-                <h2 className="titleForm">Contactarme</h2>
+                <h2 className="titleForm">Contacto</h2>
                 <p className="subtitleForm">¡Hola! Si estás buscando un desarrollador frontend de alta calidad, has venido al lugar correcto.
                     Si queres contratar alguno de mis servicios o tienes alguna propuesta laboral,
-                    no dudes en contactarme completando el formulario y a la brevedad me estare contactando.</p>
+                    no dudes en contactarme completando el formulario o ingresando al link de Whatsapp y a la brevedad me estare comunicando.</p>
             </section>
-
-
 
 
             <div className="form-contact animate__animated animate__backInLeft">
@@ -48,7 +46,7 @@ export const FormContact = () => {
                                 </p>
                                 <p className="block">
                                     <button type="submit">Enviar</button>
-                                    <input type="hidden" name="_next" value="http://127.0.0.1:5173/formContact" />
+                                    <input type="hidden" name="_next" value="https://maikolreyes.com.ar/" />
                                     <input type="hidden" name="_captcha" value='false' />
                                 </p>
                             </form>
