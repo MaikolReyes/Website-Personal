@@ -23,8 +23,7 @@ export const Navbar = () => {
                         {navItems.map(({ href, text, id }) => (
                             <li className="nav-item" key={id}>
                                 <a className="nav-link" href={href}>{text}</a>
-                            </li>))
-                        };
+                            </li>))}
                         <li>
                             <a className="buttonContactoNavbar btn" href="#contacto">Contacto</a>
                         </li>

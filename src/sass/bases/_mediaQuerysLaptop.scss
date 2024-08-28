@@ -65,8 +65,12 @@
     }
 
     .subtitlePortfolio {
-        width: 60%;
+        width: 50%;
         font-size: 16px;
+    }
+
+    .containerTextProjects {
+        width: 300px;
     }
 
     .subtitleCertification {
@@ -88,6 +92,12 @@
 
     .sectionForm {
         margin: 80px 0 20px 0;
+    }
+
+    .form-contact {
+        width: 55%;
+
+        margin: auto;
     }
 
     .titleForm {

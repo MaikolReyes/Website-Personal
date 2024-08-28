@@ -10,16 +10,16 @@
     font-weight: 600;
 }
 
+.containerAboutMe {
+    display: flex;
+    justify-content: center;
+}
+
 .imagenPersonal {
     width: 380px;
     height: 500px;
     margin-top: 20px;
     border-radius: 20px;
-}
-
-.containerAboutMe {
-    display: flex;
-    justify-content: center;
 }
 
 .containerTextAboutMe {
