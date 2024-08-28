@@ -1,3 +1,3 @@
-export * from './Footer'
-export * from './FormContact'
-export * from './Navbar'
+export * from './Footer/Footer'
+export * from './Form/FormContact'
+export * from './Navbar/Navbar'

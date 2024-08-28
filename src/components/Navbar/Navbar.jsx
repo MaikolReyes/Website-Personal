@@ -1,6 +1,13 @@
 import React from "react"
 
 export const Navbar = () => {
+
+    const navItems = [
+        { href: "#home", text: "Inicio", id: 1 },
+        { href: "#portfolio", text: "Portfolio", id: 2 },
+        { href: "#certifications", text: "Certificaciones", id: 3 },
+    ];
+
     return (
         <nav className="navbar navbar-expand-lg bg-dark">
             <div className="container-fluid">
@@ -12,25 +19,19 @@ export const Navbar = () => {
 
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <a className="nav-link" href="#home">Inicio</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#certifications">Certificaciones</a>
-                        </li>
+
+                        {navItems.map(({ href, text, id }) => (
+                            <li className="nav-item" key={id}>
+                                <a className="nav-link" href={href}>{text}</a>
+                            </li>))
+                        };
                         <li>
                             <a className="buttonContactoNavbar btn" href="#contacto">Contacto</a>
                         </li>
+
                     </ul>
                 </div>
             </div>
         </nav>
     )
 }
-
-{/* <li><a className="nav-link" href="#home">Inicio</a></li>
-                        <li><a className="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li><a className="nav-link" href='#certifications'>Certificaciones</a></li> */}
