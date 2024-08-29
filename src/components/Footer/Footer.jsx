@@ -1,23 +1,26 @@
 import React from 'react'
 
 export const Footer = () => {
+
+    const redSocial = [
+        { link: "https://github.com/MaikolReyes", icon: "fa-brands fa-github icon" },
+        { link: "https://twitter.com/MaikolJReyes", icon: "fab fa-twitter icon" },
+        { link: "https://www.linkedin.com/in/maikol-reyes/", icon: "fab fa-linkedin-in icon" },
+        { link: "https://www.maikolreyes209@gmail.com", icon: "fab fa-google-plus-g icon" }
+    ]
+
     return (
         <footer className='containerFooter bg-dark'>
+
             <ul className="social-media">
-                <li className="icons mb-5 mt-5">
-                    <a className="icons-image" target="_blank" href="https://github.com/MaikolReyes"><i class="fa-brands fa-github icon"></i></a>
-                </li>
-                <li className="icons mt-5 mb-5">
-                    <a className="icons-image" target="_blank" href="https://twitter.com/MaikolJReyes"><i className="fab fa-twitter icon"></i></a>
-                </li>
-                <li className="icons mb-5 mt-5">
-                    <a className="icons-image" target="_blank" href="https://www.linkedin.com/in/maikol-reyes/"><i className="fab fa-linkedin-in icon"></i></a>
-                </li>
-                {/* <li className="icons mb-5 mt-5">
-                    <a className="icons-image" target="_blank" href="https://www.maikolreyes209@gmail.com"><i className="fab fa-google-plus-g icon"></i></a>
-                </li> */}
+                {redSocial.map(({ link, icon }) => (
+                    <li className="icons mb-5 mt-5">
+                        <a className="icons-image" target="_blank" href={link}><i class={icon}></i></a>
+                    </li>
+                ))}
             </ul>
-            <p className='textDerechos'>Copyright ©2023 Maikol Reyes, Todos los derechos reservados.</p>
+
+            <p className='textDerechos'>Copyright ©202 Maikol Reyes, Todos los derechos reservados.</p>
         </footer>
     )
 }

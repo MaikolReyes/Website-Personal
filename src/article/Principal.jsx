@@ -2,6 +2,10 @@
 
 export const Principal = () => {
 
+    // Esta landing page esta destinada para una empresa especializada en brindar servicios de marketing y publicidad a franquicias.
+
+    // Para este proyecto utilice como lenguaje de programacion Typescript + React y para toda la parte estetica de la pagina utilize Boostraps, Animate.CSS y el procesador SASS para todo el codigo CSS.
+
     const imagePersonal = "../../src/img/IMG_1905.jpg"
 
     const skills = [
@@ -17,21 +21,21 @@ export const Principal = () => {
     const projects = [
         {
             name: "Franquicias360",
-            description: "Franquicias360 es mi primer proyecto realizado en conjunto con diseñadores UX/UI. Para el desarrollo de este proyecto, utilice como lenguaje de programacion JavaScript + React y para la parte estética de la página utilice el preprocesador SASS, ya que permite una mayor estructura y enfoque en cada sección del sitio. Esta landing page esta destinada para una empresa especializada en brindar servicios de marketing y publicidad a franquicias.",
+            description: "Es un proyecto realizado en conjunto con diseñadores UX/UI. Para el desarrollo de este proyecto, utilice como lenguaje de programacion JavaScript + React y para la parte estética de la página utilice el preprocesador SASS.",
             img: "../../src/img/franquicias360-project.png",
             github: "https://github.com/MaikolReyes/Zulia-Marketing-Digital",
             deploy: "https://franquicias360.netlify.app"
         },
         {
             name: "Zulia Marketing Digital",
-            description: "Zulia Marketing Digital es un proyecto personal fundado por mi a modo de emprendimiento en el que se ofrecen servicios de marketing digital potenciados con inteligencia artificial. Para este proyecto utilice como lenguaje de programacion Typescript + React y para toda la parte estetica de la pagina utilize Boostraps, Animate.CSS y el procesador SASS para todo el codigo CSS.",
+            description: "Es una landing page realizada a una empresa de marketing digital en el que se ofrecen servicios de marketing potenciados con inteligencia artificial.",
             img: "../../src/img/zulia-1.png",
             github: "https://github.com/MaikolReyes/Zulia-Marketing-Digital",
             deploy: "https://zuliamarketingdigital.com/"
         },
         {
             name: "Minzke",
-            description: "Minzke fue mi primer proyecto como programador y me ayudo a asentar las bases de mis conocimientos, es un ecommerce de herramientas electricas y manuales posee un carrito de compras hecho únicamente con JavaScript.",
+            description: "Es mi primer proyecto como programador y me ayudo a asentar las bases de mis conocimientos, es un ecommerce de herramientas electricas y manuales posee un carrito de compras hecho únicamente con JavaScript.",
             img: "../../src/img/minzke-project.png",
             github: "https://github.com/MaikolReyes/Minzke-Ecommerce",
             deploy: "https://maikolreyes.github.io/Minzke-Ecommerce/"
@@ -64,12 +68,10 @@ export const Principal = () => {
                 <div className="containerHeroText animate__animated animate__backInLeft">
                     <p className="textName">Hola, Mi nombre es</p>
                     <h2 className='textNamePrincipal'>Maikol Reyes</h2>
-                    <p className="textDescription">Soy un <span className='textResalt'>Desarrollador Frontend</span> en constante evolucion
-                        en busqueda de nuevas experiencias en el mundo IT, Siempre trato de sumergirme en nuevos desafíos
-                        que me ayuden a ampliar mis conocimientos como desarrollador de software</p>
+                    <p className="textDescription">Soy un <span className='textResalt'>Desarrollador Frontend</span> en constante evolucion en busqueda de nuevas experiencias en el mundo IT, Siempre trato de sumergirme en nuevos desafíos que me ayuden a ampliar mis conocimientos como desarrollador de software</p>
                     <div className='containerButtonsPrincipal'>
                         <a className='buttonsPrincipal btn' href="https://wa.link/l5si8o" target='_blank'><i class="fa-brands fa-whatsapp m-1"></i>Whatsapp</a>
-                        <a className='buttonsPrincipal btn' href='CV-Maikol-Reyes.pdf' target='_blank'>CV</a>
+                        <a className='buttonsPrincipal btn' href='CV-Maikol-Reyes.pdf' target='_blank'><i class="fa-regular fa-file m-1"></i>Curriculum</a>
                     </div>
                 </div>
             </div>
@@ -106,7 +108,7 @@ export const Principal = () => {
 
             <ul className="listSkills">
                 {skills.map(({ icon }) => (
-                    <li className="icons-skill"><a className="icons-image"><i className={icon}></i></a></li>
+                    <li className="icons-skill"><a className="icons-image-skill"><i className={icon}></i></a></li>
                 ))}
             </ul>
 
