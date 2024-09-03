@@ -35,7 +35,7 @@ export const Principal = () => {
         },
         {
             name: "Minzke",
-            description: "Es mi primer proyecto como programador y me ayudo a asentar las bases de mis conocimientos, es un ecommerce de herramientas electricas y manuales posee un carrito de compras hecho únicamente con JavaScript.",
+            description: "Fue mi primer proyecto como programador, es un ecommerce de herramientas electricas y manuales que posee un carrito de compras hecho con JavaScript.",
             img: "../../src/img/minzke-project.png",
             github: "https://github.com/MaikolReyes/Minzke-Ecommerce",
             deploy: "https://maikolreyes.github.io/Minzke-Ecommerce/"

@@ -20,7 +20,7 @@ export const Footer = () => {
                 ))}
             </ul>
 
-            <p className='textDerechos'>Copyright ©202 Maikol Reyes, Todos los derechos reservados.</p>
+            <p className='textDerechos'>Copyright ©2024 Maikol Reyes, Todos los derechos reservados.</p>
         </footer>
     )
 }
