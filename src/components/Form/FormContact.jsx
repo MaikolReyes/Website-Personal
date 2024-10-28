@@ -13,8 +13,7 @@ export const FormContact = () => {
         <>
             <section className="sectionForm" id="contacto" >
                 <h2 className="titleForm">Contacto</h2>
-                <p className="subtitleForm">¡Hola! Si estás buscando un desarrollador frontend de alta calidad, has venido al lugar correcto.
-                    Si queres contratar alguno de mis servicios o tienes alguna propuesta laboral,
+                <p className="subtitleForm">Si queres contratar alguno de mis servicios o tienes alguna propuesta laboral,
                     no dudes en contactarme completando el formulario o ingresando al link de Whatsapp y a la brevedad me estare comunicando.</p>
             </section>
 

@@ -64,11 +64,11 @@ export const Principal = () => {
 
     return (
         <>
-            <div className="heroImage" id='home'>
+            <div className="heroImage" id='home' key="name">
                 <div className="containerHeroText animate__animated animate__backInLeft">
-                    <p className="textName">Hola, Mi nombre es</p>
-                    <h2 className='textNamePrincipal'>Maikol Reyes</h2>
-                    <p className="textDescription">Soy un <span className='textResalt'>Desarrollador Frontend</span> en constante evolucion en busqueda de nuevas experiencias en el mundo IT, Siempre trato de sumergirme en nuevos desafíos que me ayuden a ampliar mis conocimientos como desarrollador de software</p>
+                    <p className="text-saludo">Hola, Mi nombre es</p>
+                    <h2 className='text-name'>Maikol Reyes</h2>
+                    <p className="text-presentation">Soy un progamador especializado en el <span className='textResalt'>Desarrollo Frontend.</span> Mis conocimientos técnicos son sólidos y completos en el campo de la programacion y siempre trato de sumergirme en nuevos desafíos que me ayuden a ampliar mis conocimientos como desarrollador de software.</p>
                     <div className='containerButtonsPrincipal'>
                         <a className='buttonsPrincipal btn' href="https://wa.link/l5si8o" target='_blank'><i class="fa-brands fa-whatsapp m-1"></i>Whatsapp</a>
                         <a className='buttonsPrincipal btn' href='CV-Maikol-Reyes.pdf' target='_blank'><i class="fa-regular fa-file m-1"></i>Curriculum</a>
@@ -77,58 +77,48 @@ export const Principal = () => {
             </div>
 
             {/* About Me */}
-            <div className='sectionAboutMe'>
-                <h2 className='titleAboutMe'>Acerca de mi</h2>
+            <div className='about'>
+                <h2 className='title-about'>Acerca de mi</h2>
             </div>
 
-            <div className='containerAboutMe'>
+            <div className='container-about'>
 
                 <img className='imagenPersonal' src={imagePersonal} alt="" />
 
-                <div className='containerTextAboutMe'>
-                    <p className='DescriptionAboutMe'>Soy un progamador especializado en el Desarrollo Frontend,
-                        Mis conocimientos técnicos son sólidos y completos, tambien poseo habilidades destacadas en
-                        tecnologías clave como HTML, CSS, SASS, Boostraps, JavaScript, Typescript, React y Node.
-                        Siempre estoy en constante busqueda para mejorar mis habilidades como programador y
-                        mantenerme al día con las últimas tendencias y tecnologías en el mundo del Desarrollo Frontend.
+                <div className='container-text-about'>
+                    <p className='description-about'>Soy un Desarrollador de Software, que inicio su preparación en el mundo IT en el año 2022 en el que tome mi primer curso sobre desarrollo web y pude asentar los conocimientos en (HTML), CSS y funcionalidades con JavaScript. Luego de finalizado continúe con mi aprendizaje de JavaScript para poder perfeccionar mis habilidades con el lenguaje de programación y por último aprendí sobre el framework React. JS para poder realizar sitios web más complejos y funcionales. En cada aprendizaje realicé proyectos que se encuentran disponibles en mi repositorio de GitHub. Siempre estoy en constante aprendizaje para mantenerme al día con las últimas tendencias y tecnologías en el mundo del Desarrollo de Software.
                     </p>
-                    <p className='DescriptionAboutMe' >
-                        A lo largo de mi trayecto, he mantenido un constante aprendizaje que me ha permitido ampliar
-                        mis conocimientos no solo en frontend, sino también en backend, testing y principios SOLID.
-                        Si estás buscando un desarrollador frontend con estas características, no busques más y ponte
-                        en contacto conmigo para comenzar a trabajar juntos en tu próximo proyecto.
+                    <p className='description-about' >
+                        A lo largo de mi trayecto, he mantenido un constante aprendizaje que me ha permitido ampliar mis conocimientos no solo en front-end, sino también en back-end, testing y principios SOLID.
                     </p>
                 </div>
             </div>
 
             {/* Skills */}
             <div className='sectionSkills'>
-                <h2 className="titleSkills">Habilidades</h2>
+                <h2 className="titleSkills">Stack</h2>
             </div>
 
             <ul className="listSkills">
-                {skills.map(({ icon }) => (
-                    <li className="icons-skill"><a className="icons-image-skill"><i className={icon}></i></a></li>
+                {skills.map(({ icon }, index) => (
+                    <li key={index} className="icons"><a className="icons-image"><i className={icon}></i></a></li>
                 ))}
             </ul>
 
             {/* Portfolio*/}
-            <div className="sectionPortfolio" id="portfolio" >
-                <h2 className="titlePortfolio animate__animated animate__backInLeft">Proyectos</h2>
-                <p className="subtitlePortfolio">Te invito a echar un vistazo a mi recorrido en el mundo del desarrollo frontend.
-                    Cada proyecto que encontrarás aquí es una pieza clave en mi aprendizaje y evolución.
-                    Este es mi pequeño espacio para compartir los proyectos que he realizado hasta ahora
-                    ¡Espero que disfrutes explorando mis creaciones tanto como yo disfruté creándolas!.</p>
+            <div className="portfolio" id="portfolio" >
+                <h2 className="portfolio-title animate__animated animate__backInLeft">Proyectos</h2>
+                <p className="portfolio-subtitle">Te invito a echar un vistazo a mi recorrido en el mundo del desarrollo front-end. Cada proyecto que encontrarás aquí es una pieza clave en mi aprendizaje y evolución. ¡Espero que disfrutes explorando mis creaciones tanto como yo disfruté creándolas!</p>
             </div>
 
             {projects.map(({ name, img, description, github, deploy }) => (
-                <div className="containerProjects animate__animated animate__backInLeft">
-                    <div className="containerImageProjects">
+                <div className="container-projects animate__animated animate__backInLeft">
+                    <div className="container-images-projects">
                         <img className="imageProject" src={img} alt={name} />
                     </div>
-                    <div className="containerTextProjects bg-dark">
-                        <h3 className="titleProject">{name}</h3>
-                        <p className="descriptionProjects">{description}</p>
+                    <div className="container-text-projects bg-dark">
+                        <h3 className="title-project">{name}</h3>
+                        <p className="description-project">{description}</p>
                         <div className="containerButtons">
                             <a className="buttonPortfolio btn" target="_blank" href={deploy}><i class="fa-solid fa-arrow-up-right-from-square p-2"></i>Deploy</a>
                             <a className="buttonPortfolio btn" target="_blank" href={github} ><i class=" fa-brands fa-github p-2"></i>Github</a>
@@ -139,9 +129,9 @@ export const Principal = () => {
 
 
             {/* Certificates */}
-            <div className='sectionCertifications' id='certifications' >
-                <h2 className="titleCertifications">Certificaciones</h2>
-                <p className='subtitleCertification'>Me complace presentar mis certificaciones en Desarrollo Web, JavaScript y React. Estos logros reflejan mi compromiso, perseverancia y motivación para crecer y convertirme en un excelente desarrollador de software.</p>
+            <div className='certifications' id='certifications' >
+                <h2 className="title-certificate">Certificaciones</h2>
+                <p className='subtitle-certification'>Me complace presentar mis certificaciones en Desarrollo Web, JavaScript y React. Estos logros reflejan mi compromiso, perseverancia y motivación para crecer y convertirme en un excelente desarrollador de software.</p>
             </div >
 
 
@@ -160,7 +150,7 @@ export const Principal = () => {
                         </div>
                     ))}
                 </div>
-                
+
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>

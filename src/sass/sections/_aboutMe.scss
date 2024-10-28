@@ -1,16 +1,16 @@
-.sectionAboutMe {
+.about {
     display: flex;
     justify-content: center;
     margin: 100px 0 50px 0;
 }
 
-.titleAboutMe {
+.title-about {
     font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-weight: 600;
 }
 
-.containerAboutMe {
+.container-about {
     display: flex;
     justify-content: center;
 }
@@ -22,7 +22,7 @@
     border-radius: 20px;
 }
 
-.containerTextAboutMe {
+.container-text-about {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,7 +30,7 @@
     margin-left: 80px;
 }
 
-.DescriptionAboutMe {
+.description-about {
     display: flex;
     font-family: 'Inter', sans-serif;
     font-size: 16px;

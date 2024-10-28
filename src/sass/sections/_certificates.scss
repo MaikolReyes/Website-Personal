@@ -1,4 +1,4 @@
-.sectionCertifications {
+.certifications {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -6,16 +6,15 @@
     margin: 100px 0 30px 0;
 }
 
-.titleCertificate {
-    margin-top: 80px;
-    margin-bottom: 50px;
+.title-certificate {
+    margin-top: 50px;
     font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-weight: 600;
 }
 
-.subtitleCertification {
-    width: 35%;
+.subtitle-certification {
+    width: 30%;
     font-size: 16px;
     text-align: center;
     font-family: 'Inter', sans-serif;

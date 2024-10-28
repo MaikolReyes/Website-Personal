@@ -1,25 +1,25 @@
-.sectionPortfolio {
+.portfolio {
     margin: 80px 0 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.titlePortfolio {
+.portfolio-title {
     font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-weight: 600;
 }
 
-.subtitlePortfolio {
+.portfolio-subtitle {
     margin: 40px;
-    width: 40%;
+    width: 35%;
     font-size: 16px;
     text-align: center;
     font-family: 'Inter', sans-serif;
 }
 
-.containerProjects {
+.container-projects {
     display: flex;
     justify-content: center;
     color: white;
@@ -30,17 +30,26 @@
     width: 80%;
 }
 
-.containerTextProjects {
+.container-images-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.container-text-projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    //
-    width: 30%;
+    width: 25%;
     height: 300px;
+    border-radius: 15px;
 }
 
-.titleProject {
+.title-project {
     font-size: 28px;
     margin: 20px 0 20px 0;
     font-weight: bold;
@@ -48,23 +57,12 @@
     border-radius: 10px;
 }
 
-.descriptionProjects {
+.description-project {
     font-size: 16px;
     font-family: 'Ubuntu', sans-serif;
     width: 70%;
     text-align: center;
     line-height: 25px;
-}
-
-.containerImageProjects {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #D9D9D9;
-    //
-    width: 500px;
-
-    // modificar
 }
 
 .containerButtons {
