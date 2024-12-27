@@ -1,25 +1,22 @@
-import React from 'react'
-//Images of Services
+import desarrolloWeb from '/img/services/desarrollo.jpg'
+import posicionamiento from '/img/services/posicionamiento.jpg'
+import basic from '/img/services/giphy.gif'
 
 export const Services = () => {
     return (
         <>
             <div className="textProjectsPrincipal" id='services'>
-                <h2 className="titleServices">Servicios</h2>
+                <h2 className="titleServices text-center">Servicios</h2>
             </div >
 
             <div className='containerGeneralServices'>
 
-                {/* <div className='containerTextServices'>
-                    <p className='textServices'>¡Hola! Si estás buscando un desarrollador frontend de alta calidad, has venido al lugar correcto. Permíteme presentarte mis servicios de desarrollo frontend.
-                        Como desarrollador frontend, tengo experiencia en la creación de sitios web y aplicaciones altamente funcionales y atractivas. Me especializo en el uso de tecnologías como HTML, CSS, JavaScript y React para crear interfaces de usuario intuitivas y atractivas que sean fáciles de usar y que brinden una experiencia excepcional al usuario.
-                        Ya sea que necesites un sitio web nuevo o una actualización de tu sitio existente, puedo trabajar contigo para crear una solución que se adapte a tus necesidades específicas. Desde la planificación y el diseño hasta la implementación y el mantenimiento, puedo ayudarte en cada paso del proceso de desarrollo frontend.
-                    </p>
+                <div className='containerTextServices'>
+                    <p className='textServices'>¡Hola! Si estás buscando un desarrollador frontend de alta calidad, has llegado al lugar correcto. Permíteme presentarte mis servicios de desarrollo frontend y cómo puedo ayudarte a crear una presencia en línea efectiva y atractiva.</p>
                     <p className='textServices'>
-                        Mi enfoque se centra en crear soluciones que no solo sean visualmente atractivas, sino también altamente funcionales y accesibles. Me aseguro de que todos mis proyectos cumplan con los estándares de accesibilidad web para que las personas con discapacidades también puedan disfrutar de la experiencia del usuario en tu sitio web.
-                        En resumen, mis servicios de desarrollo frontend ofrecen soluciones de alta calidad que te ayudarán a crear una presencia en línea efectiva y atractiva. Si estás interesado en trabajar con un desarrollador frontend con experiencia, ¡contáctame hoy mismo para comenzar a trabajar juntos!
+                        Ya sea que necesites un sitio web nuevo o una actualización de tu sitio existente, puedo trabajar contigo para crear una solución que se adapte a tus necesidades específicas. Desde la planificación y el diseño hasta la implementación y el mantenimiento, puedo ayudarte en cada paso del proceso de desarrollo.
                     </p>
-                </div> */}
+                </div>
 
                 <div id="carouselExample" className="carousel slide">
                     <div className="carousel-inner">
@@ -43,7 +40,7 @@ export const Services = () => {
                                     </div>
                                 </div> */}
                                 <div className="card" >
-                                    <img src={diseno} className="imageServices" alt="..." />
+                                    <img src={basic} className="imageServices" alt="..." />
                                     <div className="card-body">
                                         <h5 className="card-title">Diseño UX/UI</h5>
                                         <p className="card-text"></p>
@@ -57,7 +54,7 @@ export const Services = () => {
                                     </div>
                                 </div>
                                 <div className="card" >
-                                    <img src={ecommerce2} className="imageServices" alt="..." />
+                                    <img src={basic} className="imageServices" alt="..." />
                                     <div className="card-body">
                                         <h5 className="card-title">E-commerces</h5>
                                         <p className="card-text"></p>
