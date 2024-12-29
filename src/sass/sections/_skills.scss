@@ -7,9 +7,10 @@
 }
 
 .titleSkills {
-    font-family: 'Inter', sans-serif;
-    font-size: 34px;
-    font-weight: 600;
+    @extend %titles;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
 }
 
 .listSkills {
@@ -37,34 +38,34 @@
 .icons-image .icon {
     position: relative;
     color: #262626;
-    transition: .5s;
+    transition: .10s;
     z-index: 3;
 }
 
-.icons-image:nth-child(1) a:before {
+.icons:nth-child(1) a:before {
     background: #fb8714;
 }
 
-.icons-image:nth-child(2) a:before {
+.icons:nth-child(2) a:before {
     background: #3092d3;
 }
 
-.icons-image:nth-child(3) a:before {
-    background: #792ad9;
+.icons:nth-child(3) a:before {
+    background: #9851ee;
 }
 
-.icons-image:nth-child(4) a:before {
+.icons:nth-child(4) a:before {
     background: #f345bf;
 }
 
-.icons-image:nth-child(5) a:before {
-    background: #e5d11e;
+.icons:nth-child(5) a:before {
+    background: #d3be01;
 }
 
-.icons-image:nth-child(6) a:before {
+.icons:nth-child(6) a:before {
     background: #4badee;
 }
 
-.icons-image:nth-child(7) a:before {
-    background: #2bd23e;
+.icons:nth-child(7) a:before {
+    background: #16ad28;
 }

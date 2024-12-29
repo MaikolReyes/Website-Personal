@@ -1,6 +1,4 @@
-import desarrolloWeb from '/img/services/desarrollo.jpg'
-import posicionamiento from '/img/services/posicionamiento.jpg'
-import basic from '/img/services/giphy.gif'
+import { services } from '../resources/services'
 
 export const Services = () => {
     return (
@@ -23,59 +21,19 @@ export const Services = () => {
 
                         <div className="carousel-item active ">
                             <div className='containerCards'>
-                                <div className="card">
-                                    <img src={desarrolloWeb} className="imageServices" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Diseño Web</h5>
-                                        <p className="card-text"></p>
+                                {services.map(({ title, id, image, description }) => (
+                                    <div className="card" key={id}>
+                                        <img src={image} className="imageServices" alt="..." />
+                                        <div className="card-body">
+                                            <h5 className="card-title">{title}</h5>
+                                            <p className="card-text">{description}</p>
+                                        </div>
                                     </div>
-                                </div>
-                                {/* <div className="card">
-                                    <img src={aplicacionesMoviles} className="imageServices" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title mt-4">Aplicaciones Moviles</h5>
-                                        <p className="card-text">Como desarrollador de aplicaciones móviles con una gran experiencia,
-                                            estoy comprometido en crear aplicaciones móviles personalizadas y atractivas que no solo se vean bien,
-                                            sino que también proporcionen una experiencia de usuario excepcional.</p>
-                                    </div>
-                                </div> */}
-                                <div className="card" >
-                                    <img src={basic} className="imageServices" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Diseño UX/UI</h5>
-                                        <p className="card-text"></p>
-                                    </div>
-                                </div>
-                                <div className="card" >
-                                    <img src={posicionamiento} className="imageServices" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Posicionamiento SEO</h5>
-                                        <p className="card-text"></p>
-                                    </div>
-                                </div>
-                                <div className="card" >
-                                    <img src={basic} className="imageServices" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">E-commerces</h5>
-                                        <p className="card-text"></p>
-                                    </div>
-                                </div>
+                                ))}
                             </div>
                         </div>
                     </div>
-
-                    {/* <div className='buttonsCarousel'>
-                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                            <span className="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
-                            <span className="visually-hidden">Previous</span>
-                        </button>
-                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                            <span className="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
-                            <span className="visually-hidden">Next</span>
-                        </button>
-                    </div> */}
-                </div>
-
+                </div >
             </div >
         </>
     )

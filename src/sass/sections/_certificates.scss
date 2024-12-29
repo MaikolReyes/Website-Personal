@@ -8,9 +8,7 @@
 
 .title-certificate {
     margin-top: 50px;
-    font-family: 'Inter', sans-serif;
-    font-size: 36px;
-    font-weight: 600;
+    @extend %titles;
 }
 
 .subtitle-certification {

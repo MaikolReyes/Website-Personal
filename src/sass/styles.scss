@@ -7,8 +7,9 @@
 @import '../components/Form/form';
 //
 @import './abstracts/variables';
+@import './abstracts/extend';
 @import './sections/skills';
-@import './sections/principal';
+@import './sections/hero';
 @import './sections/certificates';
 @import './sections/aboutMe';
 @import './sections/services';
@@ -16,8 +17,6 @@
 @import './bases/mediaQuerysLaptop';
 @import './bases/mediaQuerysTablet';
 @import './bases/mediaQuerysMobile';
-
-
 
 * {
     box-sizing: border-box;

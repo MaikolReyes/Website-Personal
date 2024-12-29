@@ -21,7 +21,7 @@ export const About = () => {
                         En cada aprendizaje realicé proyectos que se encuentran disponibles en mi repositorio de GitHub. Siempre estoy en constante aprendizaje para mantenerme al día con las últimas tendencias y tecnologías en el mundo del Desarrollo de Software.
                     </p>
                     <div className='text-center mt-2'>
-                        <a className="buttonPortfolio btn" target="_blank" href='https://github.com/MaikolReyes'><i class="fa-brands fa-github p-2"></i>Github</a>
+                        <a className="buttonPortfolio btn" target="_blank" href='https://github.com/MaikolReyes'><i className="fa-brands fa-github p-2"></i>Github</a>
                     </div>
 
                 </div>

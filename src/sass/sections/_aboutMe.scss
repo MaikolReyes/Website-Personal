@@ -5,9 +5,7 @@
 }
 
 .title-about {
-    font-family: 'Inter', sans-serif;
-    font-size: 36px;
-    font-weight: 600;
+    @extend %titles;
 }
 
 .container-about {
