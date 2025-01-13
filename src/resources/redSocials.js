@@ -1,6 +1,6 @@
 export const redSocials = [
     {
-        id: 8,
+        id: 1,
         link: "https://github.com/MaikolReyes",
         icon: "fa-brands fa-github icon"
     },

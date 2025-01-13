@@ -1,17 +1,17 @@
 export const navItems = [
     {
+        id: 1,
         href: "#home",
-        text: "Inicio",
-        id: 1
+        text: "Inicio"
     },
     {
+        id: 2,
         href: "#portfolio",
-        text: "Portfolio",
-        id: 2
+        text: "Portfolio"
     },
     {
+        id: 3,
         href: "#certifications",
-        text: "Certificaciones",
-        id: 3
+        text: "Certificaciones"
     },
 ];
