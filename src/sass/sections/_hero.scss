@@ -8,61 +8,11 @@
     height: 100vh;
 }
 
-.containerHeroText {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Ubuntu', sans-serif;
-    margin-left: 180px;
-    align-items: flex-start;
-}
+// .buttonsPrincipal {
+//     background-color: #E8CF50;
 
-.text-saludo {
-    color: white;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    margin-bottom: 0;
-}
-
-.text-name {
-    color: white;
-    font-size: 68px;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-
-.text-presentation {
-    color: white;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    width: 40%;
-}
-
-.textResalt {
-    font-family: 'Inter', sans-serif;
-    color: #E8CF50;
-    font-weight: bold;
-    border-color: black;
-}
-
-.containerButtonsPrincipal {
-    display: flex;
-    gap: 20px;
-}
-
-.buttonsPrincipal {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
-    background-color: #E8CF50;
-    width: 180px;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    padding: 10px;
-
-    &:hover {
-        background-color: rgb(214, 214, 214);
-        color: black;
-    }
-}
+//     &:hover {
+//         background-color: rgb(214, 214, 214);
+//         color: black;
+//     }
+// }
