@@ -2,7 +2,6 @@ import React from "react";
 import { navItems } from "../../resources";
 
 export const Navbar = () => {
-
   return (
     <nav className="navbar w-full navbar-expand-lg bg-dark">
       <div className="container-fluid">
@@ -13,7 +12,7 @@ export const Navbar = () => {
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
+          data-bs-target="#navbarNav" QQQ
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
