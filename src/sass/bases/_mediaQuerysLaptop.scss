@@ -1,16 +1,8 @@
 @media screen and (max-width: 1520px) {
-    .navbar {
-        height: 60px;
-    }
 
-    .nav-link {
-        font-size: 14px;
-    }
 
-    .buttonContactoNavbar {
-        font-size: 14px;
-        width: 120px;
-        height: 35px;
+    .text-name {
+        font-size: 48px;
     }
 
     .buttonsPrincipal {
@@ -19,27 +11,19 @@
         height: 40px;
     }
 
-    .textName {
+    .description-about {
         font-size: 14px;
     }
 
-    .textNamePrincipal {
-        font-size: 48px;
-    }
-
-    .textDescription {
-        font-size: 14px;
-    }
-
-    .containerTextAboutMe {
+    .container-text-about {
         width: 30%;
     }
 
-    .sectionAboutMe {
+    .container-about {
         margin-bottom: 30px;
     }
 
-    .titleAboutMe {
+    .title-about {
         font-size: 32px;
     }
 
@@ -48,32 +32,30 @@
         height: 350px;
     }
 
-    .DescriptionAboutMe {
-        font-size: 14px;
-    }
 
     .titleSkills {
         font-size: 32px;
     }
 
-    .sectionPortfolio {
-        margin: 100px 0 0 0;
-    }
-
-    .titlePortfolio {
+    .portfolio-title {
         font-size: 32px;
     }
 
-    .subtitlePortfolio {
-        width: 50%;
-        font-size: 14px;
+    .portfolio-subtitle {
+        width: 40%;
+        font-size: 16px;
+        margin-top: 20px;
     }
 
-    .descriptionProjects {
-        font-size: 14px;
+    .container-text-projects {
+        width: 40%;
     }
 
-    .subtitleCertification {
+    .certifications {
+        font-size: 32px;
+    }
+
+    .subtitle-certification {
         width: 50%;
         font-size: 16px;
     }
@@ -104,6 +86,6 @@
     }
 
     .subtitleForm {
-        width: 50%;
+        width: 40%;
     }
 }

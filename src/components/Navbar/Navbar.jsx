@@ -29,7 +29,7 @@ export const Navbar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse navbar-collapse" id="navbarNav">
+                <div className="collapse navbar-collapse align-items-end" id="navbarNav">
                     <ul className="navbar-nav">
 
                         {navItems.map(({ href, text, id }) => (

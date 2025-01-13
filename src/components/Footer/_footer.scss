@@ -1,35 +1,11 @@
 .containerFooter {
-    margin-top: 91px;
+    margin-top: 90px;
 }
 
 .social-media {
     display: flex;
     justify-content: center;
     margin-bottom: 0;
-}
-
-.icons-image {
-    width: 60px;
-    height: 60px;
-    background-color: #D9D9D9;
-    text-align: center;
-    line-height: 80px;
-    font-size: 25px;
-    margin: 0 10px;
-    display: block;
-    border-radius: 50%;
-    position: relative;
-    overflow: hidden;
-    border: 3px solid #fff;
-    z-index: 1;
-}
-
-.icons-image .icon {
-    position: relative;
-    color: #262626;
-    transition: .5s;
-    z-index: 3;
-    margin: auto;
 }
 
 .icons-image:hover .icon {
@@ -63,18 +39,18 @@
     top: 0;
 }
 
-.icons:nth-child(1) a:before {
+.icons:nth-child(8) a:before {
     background: #000000;
 }
 
-.icons:nth-child(2) a:before {
+.icons:nth-child(9) a:before {
     background: #55acee;
 }
 
-.icons:nth-child(3) a:before {
+.icons:nth-child(10) a:before {
     background: #0077b5;
 }
 
-.icons:nth-child(4) a:before {
+.icons:nth-child(11) a:before {
     background: #dd4b39;
 }

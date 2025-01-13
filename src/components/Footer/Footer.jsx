@@ -4,7 +4,7 @@ export const Footer = () => {
 
     const redSocial = [
         {
-            id: 1,
+            id: 8,
             link: "https://github.com/MaikolReyes",
             icon: "fa-brands fa-github icon"
         },

@@ -15,7 +15,7 @@ export const App = () => {
 
             <Projects />
 
-            <Services />
+            {/* <Services /> */}
 
             <Certificates />
 

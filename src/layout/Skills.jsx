@@ -10,7 +10,7 @@ export const Skills = () => {
                 <ul className="listSkills">
                     {ListSkills.map(({ icon }, index) => (
                         <li key={index} className="icons">
-                            <a className="icons-image"><i className={icon}></i></a>
+                            <a className="icons-image" ><i className={icon}></i></a>
                         </li>
                     ))}
                 </ul>

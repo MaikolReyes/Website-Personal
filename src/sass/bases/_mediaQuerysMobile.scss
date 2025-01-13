@@ -1,5 +1,9 @@
 @media screen and (max-width:420px) {
 
+    .navbar-nav {
+        margin-top: 40px;
+    }
+
     .heroImage {
         height: 500px;
     }
@@ -9,11 +13,20 @@
         align-items: center;
     }
 
-    .textDescription {
-        width: 80vw;
+    .text-saludo {
+        font-size: 14px;
     }
 
-    .sectionAboutMe {
+    .text-name {
+        font-size: 32px;
+    }
+
+    .text-presentation {
+        font-size: 14px;
+        width: 70vw;
+    }
+
+    .about {
         margin: 70px 0 0 0;
     }
 
@@ -26,20 +39,20 @@
         width: 230px;
     }
 
-    .containerAboutMe {
+    .container-about {
         display: flex;
         flex-direction: column;
         gap: 30px;
         align-items: center;
     }
 
-    .containerTextAboutMe {
+    .container-text-about {
         margin-left: 0;
         width: 70%;
     }
 
-    .DescriptionAboutMe {
-        font-size: 12px;
+    .description-about {
+        font-size: 14px;
     }
 
     .sectionSkills {
@@ -60,13 +73,18 @@
         padding-left: 0rem;
     }
 
-    .titlePortfolio {
+    .portfolio {
+        margin-top: 40px;
+    }
+
+    .portfolio-title {
         font-size: 28px;
     }
 
-    .subtitlePortfolio {
-        font-size: 12px;
-        margin: 10px 0 30px 0;
+    .portfolio-subtitle {
+        font-size: 14px;
+        width: 80%;
+        margin: 10px;
     }
 
     .imageProject {
@@ -74,49 +92,63 @@
         height: 150px;
     }
 
-    .containerProjects {
-        margin-bottom: 100px;
+    .container-projects {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .containerImageProjects {
-        width: 350px;
-        height: 170px;
+    .container-images-projects {
+        width: 320px;
+        height: 300px;
     }
 
-    .containerTextProjects {
-        width: 350px;
-        height: 350px;
+    .imageProject {
+        width: 300px;
+        height: 300px;
     }
 
-    .titleProject {
+    .container-text-projects {
+        width: 320px;
+        height: 300px;
+    }
+
+    .title-project {
         font-size: 24px;
     }
 
-    .descriptionProjects {
+    .description-project {
         line-height: 20px;
-        font-size: 12px;
+        font-size: 14px;
         width: 90%;
     }
 
-    .containerButtons {
+    .container-buttons {
         margin-top: 0;
     }
 
-    .buttonPortfolio {
+    .button-portfolio {
         width: 120px;
     }
 
-    .titleCertifications {
+    .certifications {
+        margin: 0;
+    }
+
+    .title-certificate {
         font-size: 28px;
     }
 
-    .subtitleCertification {
+    .subtitle-certification {
         width: 80%;
-        font-size: 12px;
+        font-size: 14px;
+    }
+
+    .form-contact {
+        width: 80%;
     }
 
     .content {
-        width: 90vw;
+        width: 100%;
     }
 
     .titleForm {
