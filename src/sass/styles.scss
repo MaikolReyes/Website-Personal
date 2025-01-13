@@ -2,18 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 //
-@import '../components/Navbar/navbar';
-@import '../components/Footer/footer';
-@import '../components/Form/form';
+@import './components/footer';
+@import './components/navbar';
+@import './components/form';
 //
-@import './abstracts/variables';
-@import './abstracts/extend';
-@import './sections/skills';
-@import './sections/hero';
 @import './sections/certificates';
-@import './sections/aboutMe';
 @import './sections/services';
 @import './sections/portfolio';
+//
 @import './bases/mediaQuerysLaptop';
 @import './bases/mediaQuerysTablet';
 @import './bases/mediaQuerysMobile';
@@ -23,4 +19,65 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.heroImage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/hero-principal.jpg);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.icons-image {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 25px;
+    background-color: #D9D9D9;
+    text-align: center;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+}
+
+.icons-image .icon {
+    position: relative;
+    color: #262626;
+    transition: .10s;
+    z-index: 3;
+}
+
+.icons:nth-child(1) a:before {
+    background: #fb8714;
+}
+
+.icons:nth-child(2) a:before {
+    background: #3092d3;
+}
+
+.icons:nth-child(3) a:before {
+    background: #9851ee;
+}
+
+.icons:nth-child(4) a:before {
+    background: #f345bf;
+}
+
+.icons:nth-child(5) a:before {
+    background: #d3be01;
+}
+
+.icons:nth-child(6) a:before {
+    background: #4badee;
+}
+
+.icons:nth-child(7) a:before {
+    background: #16ad28;
 }

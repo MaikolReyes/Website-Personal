@@ -6,7 +6,7 @@ export const Certificates = () => {
         <>
 
             <div className='certifications' id='certifications' >
-                <h2 className="title-certificate">Certificaciones</h2>
+                <h2 className="title-certificate text-4xl font-semibold font-title">Certificaciones</h2>
                 <p className='subtitle-certification'>Me complace presentar mis certificaciones en Desarrollo Web, JavaScript y React. Estos logros reflejan mi compromiso, perseverancia y motivación para crecer y convertirme en un excelente desarrollador de software.</p>
             </div>
 

@@ -4,7 +4,7 @@ export const Services = () => {
     return (
         <>
             <div className="textProjectsPrincipal" id='services'>
-                <h2 className="titleServices text-center">Servicios</h2>
+                <h2 className="titleServices text-4xl font-semibold font-title">Servicios</h2>
             </div >
 
             <div className='containerGeneralServices'>

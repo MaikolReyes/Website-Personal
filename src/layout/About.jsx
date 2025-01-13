@@ -5,22 +5,25 @@ export const About = () => {
 
     return (
         <>
-            <div className='about'>
-                <h2 className='title-about'>Acerca de mi</h2>
+            <div className='about flex justify-center mt-28 mb-5'>
+                <h2 className='title-about text-4xl font-semibold font-title'>Acerca de mi</h2>
             </div>
 
-            <div className='container-about'>
+            <div className='container-about flex justify-center gap-5'>
 
-                <img className='imagenPersonal' src={imagePersonal} alt="" />
+                <img className='imagenPersonal w-96 mt-5 rounded-2xl' src={imagePersonal} alt="" />
 
-                <div className='container-text-about'>
+                <div className='container-text-about mt-5 flex flex-col justify-center w-1/4'>
 
-                    <p className='description-about'>Soy un Desarrollador de Software, que inicio su preparación en el mundo IT en el año 2022 en el que tome mi primer curso sobre desarrollo web y pude asentar los conocimientos en HTML, CSS y funcionalidades con JavaScript. Luego de finalizado continúe con mi aprendizaje de JavaScript para poder perfeccionar mis habilidades con el lenguaje de programación y por último aprendí sobre el framework React. JS para poder realizar sitios web más complejos y funcionales.
+                    <p className='description-about font-title text-base'>Soy un programador especializado en el Desarrollo Frontend, apasionado por crear interfaces web dinámicas, atractivas y centradas en el usuario. Poseo sólidos conocimientos en tecnologías como HTML5, CSS3, JavaScript y frameworks modernos como React y Vue.js. Además, domino herramientas como Tailwind CSS, SASS y sistemas de construcción como Vite y Webpack.
                     </p>
-                    <p className='description-about'>
-                        En cada aprendizaje realicé proyectos que se encuentran disponibles en mi repositorio de GitHub. Siempre estoy en constante aprendizaje para mantenerme al día con las últimas tendencias y tecnologías en el mundo del Desarrollo de Software.
+                    <p className='description-about mt-3 font-title text-base'>
+                        Mi experiencia incluye la implementación de diseños responsivos y optimizados para dispositivos móviles, garantizando una experiencia fluida en todas las plataformas. Estoy familiarizado con la integración de APIs RESTful, el uso de TypeScript para mayor robustez en el desarrollo y la gestión de versiones con Git.
                     </p>
-                    <div className='text-center mt-2'>
+                    <p className="font-title mt-3 text-base">
+                        He participado en proyectos destacados donde mejoré el rendimiento de sitios web, optimicé procesos de desarrollo y colaboré estrechamente con equipos de diseño y backend para cumplir con los objetivos del cliente.
+                    </p>
+                    <div className='text-center mt-4'>
                         <a className="button-portfolio btn" target="_blank" href='https://github.com/MaikolReyes'><i className="fa-brands fa-github p-2"></i>Github</a>
                     </div>
 

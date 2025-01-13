@@ -5,7 +5,7 @@ export const Projects = () => {
     return (
         <>
             <div className="portfolio" id="portfolio" >
-                <h2 className="portfolio-title animate__animated animate__backInLeft">Proyectos</h2>
+                <h2 className="portfolio-title text-4xl font-semibold font-title animate__animated animate__backInLeft">Proyectos</h2>
                 <p className="portfolio-subtitle">Te invito a echar un vistazo a mi recorrido en el mundo del desarrollo front-end. Cada proyecto que encontrarás aquí es una pieza clave en mi aprendizaje y evolución. ¡Espero que disfrutes explorando mis creaciones tanto como yo disfruté creándolas!</p>
             </div>
             {

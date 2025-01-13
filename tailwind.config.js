@@ -9,6 +9,10 @@ export default {
         subtitle: ["Roboto Mono", "monospace"],
         text: ["Ubuntu", "sans-serif"],
       },
+      colors: {
+        customPrimary: '#E8CF50',
+        customHover: '#d6d6d6',
+      },
       screens: {
         mobile: "480px", // Móviles (desde 480px)
         tablet: "768px", // Tabletas (desde 768px)

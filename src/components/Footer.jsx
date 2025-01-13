@@ -1,5 +1,5 @@
 import React from "react";
-import { redSocials } from "../../resources";
+import { redSocials } from "../resources";
 
 export const Footer = () => {
   return (

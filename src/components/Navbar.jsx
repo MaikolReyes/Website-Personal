@@ -1,5 +1,5 @@
 import React from "react";
-import { navItems } from "../../resources";
+import { navItems } from "../resources";
 
 export const Navbar = () => {
 
