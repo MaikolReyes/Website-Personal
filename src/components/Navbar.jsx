@@ -28,7 +28,7 @@ export const Navbar = () => {
 
             <li >
 
-              <a className="buttonContactoNavbar btn" href="#contacto">
+              <a className="buttonContactoNavbar btn mx-auto bg-customPrimary text-base font-title font-bold w-32 hover:bg-customHover hover:text-black" href="#contacto">
                 Contacto
               </a>
 

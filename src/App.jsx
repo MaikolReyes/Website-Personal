@@ -1,5 +1,5 @@
 
-import { About, Certificates, Hero, ProjectsDevs, Services } from "./layout"
+import { About, Certificates, Hero, ProjectsDevs } from "./layout"
 
 export const App = () => {
     return (
