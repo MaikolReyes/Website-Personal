@@ -112,6 +112,10 @@
     background: #16ad28;
 }
 
+.icons:nth-child(8) a:before {
+    background: black;
+}
+
 //footer
 .icons-image:hover .icon {
     color: #fff;
@@ -134,19 +138,19 @@
     top: 0;
 }
 
-.icons:nth-child(8) a:before {
+.iconso:nth-child(1) a:before {
     background: #000000;
 }
 
-.icons:nth-child(9) a:before {
+.iconso:nth-child(2) a:before {
     background: #55acee;
 }
 
-.icons:nth-child(10) a:before {
+.iconso:nth-child(3) a:before {
     background: #0077b5;
 }
 
-.icons:nth-child(11) a:before {
+.iconso:nth-child(4) a:before {
     background: #dd4b39;
 }
 
