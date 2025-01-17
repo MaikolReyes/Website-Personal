@@ -27,4 +27,8 @@ export const ListSkills = [
     id: 7,
     icon: "fa-brands fa-node icon",
   },
+  {
+    id: 7,
+    icon: "fa-brands fa-square-git icon",
+  },
 ];

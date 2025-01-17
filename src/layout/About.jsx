@@ -1,3 +1,4 @@
+import { ListSkills } from "../resources"
 
 export const About = () => {
 
@@ -5,7 +6,7 @@ export const About = () => {
 
     return (
         <>
-            <div className='about flex justify-center mt-28 mb-5'>
+            <div className='about flex justify-center mt-28 mb-2'>
                 <h2 className='title-about text-4xl font-semibold font-title'>Acerca de mi</h2>
             </div>
 
@@ -24,10 +25,23 @@ export const About = () => {
                         He participado en proyectos destacados donde mejoré el rendimiento de sitios web, optimicé procesos de desarrollo y colaboré estrechamente con equipos de diseño y backend para cumplir con los objetivos del cliente.
                     </p>
                     <div className='text-center mt-4'>
-                        <a className="button-portfolio btn" target="_blank" href='https://github.com/MaikolReyes'><i className="fa-brands fa-github p-2"></i>Github</a>
+                        <a className="button-portfolio btn text-base bg-customPrimary font-title font-bold p-2 w-36 hover:text-black hover:bg-customHover" target="_blank" href='https://github.com/MaikolReyes'><i className="fa-brands fa-github p-2"></i>Github</a>
                     </div>
 
                 </div>
+            </div>
+
+            <div className='sectionSkills flex flex-col items-center mt-12 mb-7'>
+                <h2 className="titleSkills text-4xl font-semibold font-title mt-2 mb-4">Stack</h2>
+
+                <ul className="listSkills flex justify-center gap-4 mt-2">
+                    {ListSkills.map(({ icon }, index) => (
+                        <li key={index} className="icons">
+                            <a className="icons-image" ><i className={icon}></i></a>
+                        </li>
+                    ))}
+                </ul>
+
             </div>
         </>
     )

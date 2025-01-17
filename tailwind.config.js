@@ -12,6 +12,7 @@ export default {
       colors: {
         customPrimary: "#E8CF50",
         customHover: "#d6d6d6",
+        customProject:"#D9D9D9"
       },
       screens: {
         mobile: "480px", // Móviles (desde 480px)

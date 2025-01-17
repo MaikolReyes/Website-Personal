@@ -1,27 +1,18 @@
 
-import { Navbar, Footer, FormContact } from './components'
-import { About, Certificates, Hero, Projects, Services, Skills } from "./layout"
+import { About, Certificates, Hero, ProjectsDevs, Services } from "./layout"
 
 export const App = () => {
     return (
         <>
-            <Navbar />
-
             <Hero />
 
             <About />
 
-            <Skills />
-
-            <Projects />
+            <ProjectsDevs />
 
             {/* <Services /> */}
 
             <Certificates />
-
-            <FormContact />
-
-            <Footer />
         </>
     )
 }
