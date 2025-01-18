@@ -18,7 +18,7 @@ export const ProjectsDevs = () => {
                             <img className="imageProject w-4/5 mx-auto" src={img} alt={name} />
                         </div>
 
-                        <div className="flex flex-col items-center w-4/5 justify-center bg-dark large-desktop:w-1/4 h-80 rounded-xl desktop:w-1/3 desktop:h-72">
+                        <div className="flex flex-col items-center w-4/5 h-48 justify-center bg-dark large-desktop:w-1/4 large-desktop:h-80 rounded-xl desktop:w-1/3 desktop:h-72">
 
                             <h3 className="mb-3 font-title text-2xl">{name}</h3>
                             <p className="description-project text-customHover text-base font-text w-4/5 text-center">{description}</p>
