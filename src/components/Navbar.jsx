@@ -15,9 +15,8 @@ export const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="navbar-collapse cola justify-content-end" id="navbarNav">
-          {/* collapse */}
-          <ul className="navbar-nav gap-7 mr-5 items-center">
+        <div className="collapse navbar-collapse justify-content-end mobile:justify-content-center" id="navbarNav">
+          <ul className="navbar-nav gap-7 mr-5 items-center ">
             {navItems.map(({ href, text, id }) => (
               <li className="nav-item" key={id}>
                 <a className="nav-link text-white font-subtitle text-base hover:text-gray-400 relative transition-all duration-350 ease-linear" href={href}>

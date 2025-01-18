@@ -11,11 +11,11 @@ export const About = () => {
                 <h2 className='title-about text-3xl large-desktop:text-4xl font-semibold font-title'>Acerca de mi</h2>
             </div>
 
-            <div className='container-about flex justify-center items-center flex-col large-desktop:gap-14 large-desktop:flex-row'>
+            <div className='container-about flex justify-center items-center flex-col desktop:flex-row desktop:gap-14 large-desktop:gap-14 large-desktop:flex-row'>
 
-                <img className='imagenPersonal w-96 mt-5 rounded-2xl ' src={imagePersonal} alt="" />
+                <img className='imagenPersonal max-w-96 desktop:h-96 large-desktop:h-auto mt-5 rounded-2xl ' src={imagePersonal} alt="" />
 
-                <div className='container-text-about w-3/4 mobile:ml-0 mt-5 flex flex-col justify-center mobile:w-1/4'>
+                <div className='container-text-about mobile:ml-0 mt-5 flex flex-col justify-center w-1/4 desktop:w-2/6 desktop:mt-14 large-desktop:w-1/4'>
 
                     <p className='description-about text-sm font-title large-desktop:text-base'>Soy un programador especializado en el Desarrollo Frontend, apasionado por crear interfaces web dinámicas, atractivas y centradas en el usuario. Poseo sólidos conocimientos en tecnologías como HTML5, CSS3, JavaScript y frameworks modernos como React y Vue.js. Además, domino herramientas como Tailwind CSS, SASS y sistemas de construcción como Vite y Webpack.
                     </p>
@@ -33,7 +33,7 @@ export const About = () => {
             </div>
 
             <div className='sectionSkills flex flex-col items-center mt-12 mb-7 mobile:mt-8'>
-                <h2 className="titleSkills text-4xl font-semibold font-title mt-2 mb-4">Stack</h2>
+                <h2 className="titleSkills text-3xl large-desktop:text-4xl font-semibold font-title mt-2 mb-4">Stack</h2>
 
                 <ul className="listSkills flex justify-center gap-4 mt-2">
                     {ListSkills.map(({ icon }, index) => (
