@@ -10,7 +10,7 @@ export const Navbar = () => {
           <h3 className="text-white mx-5 my-auto text-2xl">MR</h3>
         </a>
         <button
-          className="navbar-toggler" type="button" data-bs-toggle="collapse"
+          className="navbar-toggler bg-customPrimary" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -28,7 +28,7 @@ export const Navbar = () => {
 
             <li >
 
-              <a className="buttonContactoNavbar btn" href="#contacto">
+              <a className="buttonContactoNavbar btn mx-auto bg-customPrimary text-base font-title font-bold w-32 hover:bg-customHover hover:text-black" href="#contacto">
                 Contacto
               </a>
 
