@@ -31,6 +31,7 @@
     height: 100vh;
 }
 
+// skills
 .icons-image {
     width: 60px;
     height: 60px;
@@ -80,4 +81,41 @@
 
 .icons:nth-child(7) a:before {
     background: #16ad28;
+}
+
+// Certificates
+.carousel-control-next-icon {
+    background-color: grey;
+    color: yellow;
+    border-radius: 10px;
+    width: 30px;
+    height: 40px;
+
+    &:hover {
+        background-color: #a5a5a5;
+    }
+}
+
+.carousel-control-prev-icon {
+    background-color: grey;
+    color: yellow;
+    border-radius: 10px;
+    width: 30px;
+    height: 40px;
+
+    &:hover {
+        background-color: #a5a5a5;
+    }
+}
+
+.carousel-control-next {
+    width: 60%;
+}
+
+.carousel-control-prev {
+    width: 60%;
+}
+
+.carousel-indicators {
+    z-index: 1;
 }

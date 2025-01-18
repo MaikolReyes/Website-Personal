@@ -24,39 +24,3 @@
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
-
-.carousel-control-next-icon {
-    background-color: grey;
-    color: yellow;
-    border-radius: 10px;
-    width: 30px;
-    height: 40px;
-
-    &:hover {
-        background-color: #a5a5a5;
-    }
-}
-
-.carousel-control-prev-icon {
-    background-color: grey;
-    color: yellow;
-    border-radius: 10px;
-    width: 30px;
-    height: 40px;
-
-    &:hover {
-        background-color: #a5a5a5;
-    }
-}
-
-.carousel-control-next {
-    width: 60%;
-}
-
-.carousel-control-prev {
-    width: 60%;
-}
-
-.carousel-indicators {
-    z-index: 1;
-}
