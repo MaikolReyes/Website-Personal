@@ -23,8 +23,8 @@ Este sitio web está construido utilizando las siguientes tecnologías modernas:
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/miusuario/mi-sitio-web-personal.git
-   cd mi-sitio-web-personal
+   git clone [https://github.com/MaikolReyes/Website-Personal]
+   cd Website-Personal
 
 2. **Instalar dependencias**:
 npm install
