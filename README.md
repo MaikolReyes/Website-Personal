@@ -15,13 +15,9 @@ Este sitio web está construido utilizando las siguientes tecnologías modernas:
 
 ## 🛠️ Funcionalidades Principales
 
-- **Portafolio**: Una galería visual que muestra mis proyectos destacados con detalles y enlaces al código fuente o versiones en vivo.
-- **Código Compartido**: Sección dedicada a mostrar ejemplos de código que representan mi experiencia y habilidades técnicas.
-- **Responsividad**: Diseño completamente responsivo, optimizado para dispositivos móviles, tabletas y escritorios.
 - **Experiencia Profesional**: Información sobre mi experiencia laboral, educación y certificaciones.
-
-## 📂 Estructura del Proyecto
-
+- **Portafolio**: Una galería visual que muestra mis proyectos destacados con detalles y enlaces al código fuente o versiones en vivo.
+- **Responsividad**: Diseño completamente responsivo, optimizado para dispositivos móviles, tabletas y escritorios.
 
 ## 🌟 Cómo Correr el Proyecto Localmente
 
@@ -29,7 +25,14 @@ Este sitio web está construido utilizando las siguientes tecnologías modernas:
    ```bash
    git clone https://github.com/miusuario/mi-sitio-web-personal.git
    cd mi-sitio-web-personal
-   
+
+2. **Instalar dependencias**:
 npm install
 
+3.  **Iniciar el servidor de desarrollo**:
 npm run dev
+
+4. **Abre tu navegador en http://localhost:5173 para ver el sitio en acción.**
+
+## 📧 Contacto
+Si deseas contactarme, no dudes en escribirme a mi correo: maikolreyes209@gmail.com o conectarte conmigo en LinkedIn https://www.linkedin.com/in/maikol-reyes/.
