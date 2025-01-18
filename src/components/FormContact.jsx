@@ -13,7 +13,7 @@ export const FormContact = () => {
         <>
             <div className="sectionForm flex items-center flex-col mt-36 mb-4" id="contacto" >
                 <h2 className="titleForm font-title text-3xl large-desktop:text-4xl font-semibold mb-3">Contacto</h2>
-                <p className="subtitleForm text-center w-1/3 text-base desktop:w-2/5">Si queres contratar alguno de mis servicios o tienes alguna propuesta laboral,
+                <p className="subtitleForm text-center w-4/5 desktop:w-2/5 large-desktop:w-1/3 text-base">Si queres contratar alguno de mis servicios o tienes alguna propuesta laboral,
                     no dudes en contactarme completando el formulario o ingresando al link de Whatsapp y a la brevedad me estare comunicando.</p>
             </div>
 

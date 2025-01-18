@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&family=Roboto:wght@300;400&family=Rubik&family=Ubuntu:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-//
-@import './bases/mediaQuerysTablet';
-@import './bases/mediaQuerysMobile';
+
 
 * {
     box-sizing: border-box;
@@ -16,8 +14,6 @@
 
 .collapse {
     visibility: visible;
-    display: flex;
-    justify-content: center;
 }
 
 /* Estilos específicos para pantallas pequeñas */
@@ -31,6 +27,17 @@
     .collapse.show {
         visibility: visible;
         height: auto;
+    }
+
+    .icons-image {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 25px;
+    }
+
+    .contact-wrapper>* {
+        padding: 1em;
     }
 
 }
