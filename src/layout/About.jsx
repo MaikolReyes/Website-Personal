@@ -7,15 +7,15 @@ export const About = () => {
 
     return (
         <>
-            <div className='flex justify-center mt-28 mb-2'>
+            <div className='flex justify-center mt-5 large-desktop:mt-28 large-desktop:mb-2'>
                 <h2 className='title-about text-3xl large-desktop:text-4xl font-semibold font-title'>Acerca de mi</h2>
             </div>
 
             <div className='flex justify-center items-center flex-col tablet:flex-row desktop:flex-row desktop:gap-14 large-desktop:gap-14 large-desktop:flex-row'>
 
-                <img className='max-w-96 mobile:h-64 desktop:h-96 large-desktop:h-auto mt-5 rounded-2xl ' src={imagePersonal} alt="" />
+                <img className='max-w-96 h-72 mt-3 desktop:h-96 large-desktop:h-auto large-desktop:mt-5 rounded-2xl ' src={imagePersonal} alt="" />
 
-                <div className='mobile:ml-0 mt-5 flex flex-col justify-center w-1/4 desktop:w-2/6 desktop:mt-14 large-desktop:w-1/4'>
+                <div className='mobile:ml-0 mt-4 large-desktop:mt-5 flex flex-col justify-center w-4/5 desktop:w-2/6 desktop:mt-14 large-desktop:w-1/4'>
 
                     <p className='text-sm font-title large-desktop:text-base'>Soy un programador especializado en el Desarrollo Frontend, apasionado por crear interfaces web dinámicas, atractivas y centradas en el usuario. Poseo sólidos conocimientos en tecnologías como HTML5, CSS3, JavaScript y frameworks modernos como React y Vue.js. Además, domino herramientas como Tailwind CSS, SASS y sistemas de construcción como Vite y Webpack.
                     </p>
