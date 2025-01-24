@@ -16,35 +16,6 @@
     visibility: visible;
 }
 
-/* Estilos específicos para pantallas pequeñas */
-@media (max-width: 480px) {
-    .collapse {
-        visibility: hidden;
-        height: 0;
-        overflow: hidden;
-    }
-
-    .collapse.show {
-        visibility: visible;
-        height: auto;
-    }
-
-    .icons-image {
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
-        font-size: 25px;
-    }
-
-    .contact-wrapper>* {
-        padding: 1em;
-    }
-
-    .contact-form form p {
-        padding: 0;
-    }
-
-}
 
 .nav-link::before,
 .nav-link::after {
@@ -229,4 +200,44 @@
 
 .contact-wrapper>* {
     padding: 4em;
+}
+
+/* Estilos específicos para pantallas pequeñas */
+@media (max-width: 480px) {
+    .collapse {
+        visibility: hidden;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .collapse.show {
+        visibility: visible;
+        height: auto;
+    }
+
+    .icons-image {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 25px;
+    }
+
+    .contact-wrapper>* {
+        padding: 3em;
+    }
+
+    .contact-form form p {
+        padding: 1em;
+    }
+
+    .contact-form form button,
+    .contact-form form input,
+    .contact-form form textarea {
+        padding: 0em;
+    }
+
+    .heroImage {
+        justify-content: center;
+    }
+
 }

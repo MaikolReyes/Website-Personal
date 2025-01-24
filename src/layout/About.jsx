@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import { ListSkills } from "../resources"
 
 export const About = () => {

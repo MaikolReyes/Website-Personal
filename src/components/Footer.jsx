@@ -14,7 +14,7 @@ export const Footer = () => {
         ))}
       </ul>
 
-      <p className="text-white text-sm large-desktop:text-base mx-0 font-semibold flex justify-center pb-2">
+      <p className="text-white text-sm large-desktop:text-base text-center font-semibold flex justify-center pb-2">
         Copyright ©2025 Maikol Reyes, Todos los derechos reservados.
       </p>
     </footer>

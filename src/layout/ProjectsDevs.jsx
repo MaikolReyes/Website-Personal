@@ -20,8 +20,8 @@ export const ProjectsDevs = () => {
 
                         <div className="flex flex-col items-center w-4/5 p-3 justify-center bg-dark large-desktop:w-1/4 large-desktop:h-80 rounded-xl desktop:w-1/3 desktop:h-72">
 
-                            <h3 className="mb-3 font-title text-xl large-desktop:text-2xl">{name}</h3>
-                            <p className="text-sm text-customHover large-desktop:text-lg font-text large-desktop:w-4/5 text-center">{description}</p>
+                            <h3 className="mb-3 font-title text-2xl large-desktop:text-3xl">{name}</h3>
+                            <p className="text-sm text-customHover  large-desktop:text-lg font-text w-4/5 text-center">{description}</p>
 
                             <div className="mt-3 flex justify-center gap-3">
 

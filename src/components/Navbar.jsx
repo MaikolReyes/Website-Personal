@@ -16,7 +16,7 @@ export const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse justify-center desktop:justify-end large-desktop:justify-end" id="navbarNav">
-          <ul className="navbar-nav gap-7 mr-5 items-center mobile:gap-10 ">
+          <ul className="navbar-nav gap-10 large-desktop:gap-7  items-center mobile:gap-10 ">
             {navItems.map(({ href, text, id }) => (
               <li className="nav-item" key={id}>
                 <a className="nav-link text-white font-subtitle text-base hover:text-gray-400 relative transition-all duration-350 ease-linear" href={href}>

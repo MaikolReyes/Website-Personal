@@ -18,7 +18,7 @@ export const FormContact = () => {
             </div>
 
 
-            <div className="form-contact text-white w-2/5 desktop:w-3/5 large-desktop:w-2/4 mx-auto animate__animated animate__backInLeft">
+            <div className="form-contact text-white w-2/5 large-desktop:w-2/4 mx-auto animate__animated animate__backInLeft">
                 <div className="content flex justify-center">
                     <div className="contact-wrapper">
                         <div className="contact-form bg-dark font-subtitle rounded-3xl">
