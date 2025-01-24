@@ -5,8 +5,8 @@ export const projects = [
     description:
       "Es un sitio web de noticias de finanzas y economía que esta realizado con React, TypeScript, Tailwind y Boostraps. Para el backend utilice strapi para crear, gestionar y distribuir los contenidos del sitio.",
     img: "./img/projects/finance.png",
-    github: "https://github.com/MaikolReyes/Zulia-Marketing-Digital",
-    deploy: "https://franquicias360.netlify.app",
+    github: "https://github.com/MaikolReyes/FinanceSignal",
+    deploy: "https://financesignal.netlify.app/",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const projects = [
       "Es un sitio web para una agencia de marketing digital que ofrece servicios de desarrollo web y publicidad en RRSS. Esta realizada con React, TypeScript, SASS y Boostraps para los estilos.",
     img: "./img/projects/zmd.png",
     github: "https://github.com/MaikolReyes/Zulia-Marketing-Digital",
-    deploy: "https://zuliamarketingdigital.com/",
+    deploy: "https://zuliamkt.netlify.app/",
   },
   {
     id: 3,
@@ -23,8 +23,8 @@ export const projects = [
     description:
       "Es un E-commerce de venta de relojes smartwatch que esta creado con React, JavaScript, CSS, Boostraps y en el que utilice como DB Firebase para los artículos del sitio web.",
     img: "./img/projects/lexus.png",
-    github: "https://github.com/MaikolReyes/Zulia-Marketing-Digital",
-    deploy: "https://zuliamarketingdigital.com/",
+    github: "https://github.com/MaikolReyes/lexuswatch",
+    deploy: "https://lexuswatch.netlify.app/",
   },
   {
     id: 4,
@@ -32,8 +32,8 @@ export const projects = [
     description:
       "Es un sitio web para una agencia de marketing de franquicias en el que utilice como lenguaje de programacion React, Javascript y para los estilos de la página utilice el preprocesador SASS.",
     img: "./img/projects/franquicias.png",
-    github: "https://github.com/MaikolReyes/Minzke-Ecommerce",
-    deploy: "https://maikolreyes.github.io/Minzke-Ecommerce/",
+    github: "https://github.com/MaikolReyes/Franquicias360",
+    deploy: "https://franquicias360.netlify.app/",
   },
   {
     id: 5,
