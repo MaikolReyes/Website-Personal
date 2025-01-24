@@ -15,8 +15,8 @@ export const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse justify-center large-desktop:justify-end" id="navbarNav">
-          <ul className="navbar-nav gap-7 mr-5 items-center ">
+        <div className="collapse navbar-collapse justify-center desktop:justify-end large-desktop:justify-end" id="navbarNav">
+          <ul className="navbar-nav gap-7 mr-5 items-center mobile:gap-10 ">
             {navItems.map(({ href, text, id }) => (
               <li className="nav-item" key={id}>
                 <a className="nav-link text-white font-subtitle text-base hover:text-gray-400 relative transition-all duration-350 ease-linear" href={href}>
@@ -27,7 +27,7 @@ export const Navbar = () => {
 
             <li >
 
-              <a className="buttonContactoNavbar btn mx-auto bg-customPrimary text-base font-title font-bold w-32 hover:bg-customHover hover:text-black" href="#contacto">
+              <a className="btn mx-auto bg-customPrimary text-base font-title font-bold w-32 hover:bg-customHover hover:text-black" href="#contacto">
                 Contacto
               </a>
 

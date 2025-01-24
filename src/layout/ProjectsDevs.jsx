@@ -14,7 +14,7 @@ export const ProjectsDevs = () => {
                 projects.map(({ name, id, img, description, github, deploy }) => (
                     <div className="mb-11 flex justify-center text-white flex-col desktop:flex-row large-desktop:flex-row items-center animate__animated animate__backInLeft" key={id} >
 
-                        <div className="flex items-center desktop:w-1/4 h-48 bg-customProject large-desktop:h-80 large-desktop:w-1/4 rounded-xl desktop:h-72">
+                        <div className="flex items-center w-4/5 desktop:w-1/4 h-48 bg-customProject large-desktop:h-80 large-desktop:w-1/4 rounded-xl desktop:h-72">
                             <img className="imageProject large-desktop:w-[400px] w-[300px] mx-auto" src={img} alt={name} />
                         </div>
 
