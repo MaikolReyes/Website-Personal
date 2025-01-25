@@ -18,29 +18,29 @@ export const FormContact = () => {
             </div>
 
 
-            <div className="form-contact text-white w-2/5 large-desktop:w-2/4 mx-auto animate__animated animate__backInLeft">
+            <div className="form-contact text-white w-2/5 desktop:w-2/4 large-desktop:w-2/5 mx-auto animate__animated animate__backInLeft">
                 <div className="content flex justify-center">
                     <div className="contact-wrapper">
                         <div className="contact-form bg-dark font-subtitle rounded-3xl">
                             <form onSubmit={sendForm} action="https://formsubmit.co/maikolreyes209@gmail.com" method="POST">
                                 <p>
-                                    <label className="text-sm large-desktop:text-xl" htmlFor="name">Nombre</label>
+                                    <label className="text-sm large-desktop:text-lg" htmlFor="name">Nombre</label>
                                     <input required type="text" name="Nombre" id="name" />
                                 </p>
                                 <p>
-                                    <label className="text-sm large-desktop:text-xl" htmlFor="email">Correo Electrónico</label>
+                                    <label className="text-sm large-desktop:text-lg" htmlFor="email">Correo Electrónico</label>
                                     <input required type="email" name="Gmail" id="email" />
                                 </p>
                                 <p>
-                                    <label className="text-sm large-desktop:text-xl" htmlFor="telefono">Teléfono</label>
+                                    <label className="text-sm large-desktop:text-lg" htmlFor="telefono">Teléfono</label>
                                     <input required type="number" name="Telefono" id="telefono" />
                                 </p>
                                 <p>
-                                    <label className="text-sm large-desktop:text-xl" htmlFor="asunto">Asunto</label>
+                                    <label className="text-sm large-desktop:text-lg" htmlFor="asunto">Asunto</label>
                                     <input required type="text" name="Asunto" id="asunto" />
                                 </p>
                                 <p className="block">
-                                    <label className="text-sm large-desktop:text-xl" htmlFor="mensajes">Mensaje</label>
+                                    <label className="text-sm large-desktop:text-lg" htmlFor="mensajes">Mensaje</label>
                                     <textarea required name="Mensaje" id="Mensaje" cols="50" rows="3"></textarea>
                                 </p>
                                 <p className="block">

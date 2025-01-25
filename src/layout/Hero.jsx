@@ -7,7 +7,7 @@ export const Hero = () => {
 
             <div className="flex flex-col items-center text-center font-text animate__animated animate__backInLeft 
             w-4/5 tablet:w-1/3 desktop:w-1/3 desktop:text-start desktop:ml-36 large-desktop:ml-52 
-                tablet:text-start large-desktop:items-start large-desktop:text-start">
+                tablet:text-start large-desktop:text-start">
 
                 <h2 className="text-sm text-white font-title large-desktop:text-base">Hola, Mi nombre es</h2>
 
