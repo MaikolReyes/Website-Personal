@@ -7,7 +7,7 @@ export const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-dark w-full position-fixed z-10 shadow-lg">
       <div className="container-fluid">
         <a className="navbar-brand" href="#home">
-          <h3 className="text-white mx-5 my-auto text-2xl">MR</h3>
+          <h3 className="text-white mx-5 my-auto text-2xl">Maikol Reyes</h3>
         </a>
         <button
           className="navbar-toggler bg-customPrimary mr-5" type="button" data-bs-toggle="collapse"

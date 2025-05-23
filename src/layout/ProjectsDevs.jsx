@@ -1,17 +1,17 @@
 import React from 'react'
-import { projects } from '../resources'
+import { projectsDev } from '../lib'
 
 export const ProjectsDevs = () => {
     return (
         <>
             <div className="flex flex-col items-center mt-20" id="portfolio" >
-                <h2 className="text-3xl large-desktop:text-4xl font-semibold font-title animate__animated animate__backInLeft">Proyectos</h2>
+                <h2 className="text-3xl large-desktop:text-4xl font-semibold font-title animate__animated animate__backInLeft">Proyectos en Programacion</h2>
 
                 <p className="w-4/5 text-sm large-desktop:w-1/3 m-4 large-desktop:text-base font-title text-center desktop:w-2/5">Te invito a echar un vistazo a mi recorrido en el mundo del desarrollo front-end. Cada proyecto que encontrarás aquí es una pieza clave en mi aprendizaje y evolución. ¡Espero que disfrutes explorando mis creaciones tanto como yo disfruté creándolas!</p>
             </div>
 
             {
-                projects.map(({ name, id, img, description, github, deploy }) => (
+                projectsDev.map(({ name, id, img, description, github, deploy }) => (
                     <div className="mb-11 flex justify-center text-white flex-col desktop:flex-row large-desktop:flex-row items-center animate__animated animate__backInLeft" key={id} >
 
                         <div className="flex items-center w-4/5 desktop:w-1/4 h-48 bg-customProject large-desktop:h-80 large-desktop:w-1/4 rounded-xl desktop:h-72">
