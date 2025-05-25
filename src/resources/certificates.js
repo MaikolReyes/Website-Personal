@@ -19,4 +19,9 @@ export const certificates = [
     href: "./img/certificates/frontEndReact.png",
     description: "Certificado de Programador Front End",
   },
+  {
+    id: 5,
+    href: "./img/certificates/power-bi.png",
+    description: "Certificado en Power BI",
+  },
 ];

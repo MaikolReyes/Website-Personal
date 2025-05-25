@@ -1,46 +1,47 @@
 export const projectsAnalyst = [
   {
     id: 1,
-    name: "Análisis de Ventas ElectroMas - Power BI",
+    name: "Análisis de Ventas ElectroMas",
     description:
-      "Es un sitio web de noticias de finanzas y economía que esta realizado con React, TypeScript, Tailwind y Boostraps. Para el backend utilice strapi para crear, gestionar y distribuir los contenidos del sitio.",
+      "Este proyecto de Business Intelligence fue desarrollado para ElectroMas, una empresa ficticia dedicada a la comercialización minorista de artículos electrónicos y electrodomésticos.",
     img: "img/projects/Electromas-font.png",
-    github: "https://github.com/MaikolReyes/FinanceSignal",
-    deploy: "https://financesignal.netlify.app/",
+    github: "https://github.com/MaikolReyes/Analisis-Bi-Electromas",
+    deploy: '/public/projectsBI/electromas.pbix'
   },
   {
     id: 2,
-    name: "Análisis de Ventas y Recomendaciones de Negocio - Power BI",
+    name: "Análisis de Sucursales",
     description:
-      "Es un sitio web para una agencia de marketing digital que ofrece servicios de desarrollo web y publicidad en RRSS. Esta realizada con React, TypeScript, SASS y Boostraps para los estilos.",
-    img: "img/projects/Mermelab-font.png",
-    github: "https://github.com/MaikolReyes/Zulia-Marketing-Digital",
-    deploy: "https://zuliamkt.netlify.app/",
+      "Este proyecto consiste en el desarrollo de un tablero interactivo en Power BI que permite analizar y comparar el rendimiento comercial de diferentes sucursales de una empresa a lo largo del tiempo.",
+    img: "img/projects/treemap.png",
+    github: "https://github.com/MaikolReyes/Analisis-BI-Sucursales",
+      deploy: '/public/projectsBI/analisis-sucursales.pbix'
   },
   {
     id: 3,
-    name: "Lexuswatch",
+    name: "Análisis Inmobiliario",
     description:
-      "Es un E-commerce de venta de relojes smartwatch que esta creado con React, JavaScript, CSS, Boostraps y en el que utilice como DB Firebase para los artículos del sitio web.",
-    img: "img/projects/treemap.png",
-    github: "https://github.com/MaikolReyes/lexuswatch",
-    deploy: "https://lexuswatch.netlify.app/",
+      "Este proyecto consiste en la creación de un tablero interactivo desarrollado en Power BI, a partir de un conjunto de datos inmobiliarios.",
+    img: "img/projects/inmobiliario.png",
+    github: "https://github.com/MaikolReyes/Analisis-BI-Inmobiliario",
+    deploy: '/public/projectsBI/analisis-inmobiliario.pbix'
   },
   {
     id: 4,
-    name: "Lexuswatch",
+    name: "Análisis de Ventas Retail",
     description:
-      "Es un E-commerce de venta de relojes smartwatch que esta creado con React, JavaScript, CSS, Boostraps y en el que utilice como DB Firebase para los artículos del sitio web.",
-    img: "img/projects/inmobiliario.png",
-    github: "https://github.com/MaikolReyes/lexuswatch",
-    deploy: "https://lexuswatch.netlify.app/",
+      "Este proyecto presenta un dashboard interactivo desarrollado en Power BI, orientado al análisis de datos de ventas de una empresa de retail.",
+    img: "img/projects/facta.png",
+    github: 'https://github.com/MaikolReyes/Analisis-BI-Ventas-Retail',
+    deploy: '/public/projectsBI/analisis-de-ventas-retail.pbix'
   },
   {
     id: 5,
-    name: "Lexuswatch",
+    name: "Análisis Estrategico de Negocio",
     description:
-      "Es un E-commerce de venta de relojes smartwatch que esta creado con React, JavaScript, CSS, Boostraps y en el que utilice como DB Firebase para los artículos del sitio web.",
-    img: "img/projects/facta.png",
-    github: ''
+      "Este proyecto tiene como objetivo analizar los datos de ventas de una empresa para obtener conclusiones clave que apoyen la toma de decisiones estratégicas, como la ubicación ideal de un nuevo centro de distribución.",
+    img: "img/projects/Mermelab-font.png",
+    github: "https://github.com/MaikolReyes/Analisis-Bi-Mermelab",
+    deploy: "/public/projectsBI/Analisis-Mermelab.pbix",
   },
 ];

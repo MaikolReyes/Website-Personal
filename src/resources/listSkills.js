@@ -1,34 +1,41 @@
 export const ListSkills = [
   {
     id: 1,
-    icon: "fa-brands fa-html5 icon",
+    name: 'Power BI',
+    icon: "fa-solid fa-chart-simple icon",
   },
   {
     id: 2,
-    icon: "fa-brands fa-css3-alt icon",
+    name: 'SQL',
+    icon: "fa-solid fa-database icon",
   },
+
   {
     id: 3,
-    icon: "fa-brands fa-bootstrap icon",
+    name: 'Python',
+    icon: "fa-solid fa-staff-snake icon",
   },
   {
     id: 4,
-    icon: "fa-brands fa-sass icon",
-  },
-  {
-    id: 5,
+    name: 'JavaScript',
     icon: "fa-brands fa-square-js icon",
   },
   {
-    id: 6,
+    id: 5,
+    name: 'React',
     icon: "fa-brands fa-react icon",
   },
   {
-    id: 7,
-    icon: "fa-brands fa-node icon",
+    id: 6,
+    name: 'CSS',
+    icon: "fa-brands fa-html5 icon",
   },
   {
     id: 7,
+    icon: "fa-brands fa-css3-alt icon",
+  },
+  {
+    id: 8,
     icon: "fa-brands fa-square-git icon",
   },
 ];

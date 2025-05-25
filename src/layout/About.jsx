@@ -14,13 +14,11 @@ export const About = () => {
 
                 <img className='max-w-96 h-72 mt-3 desktop:h-96 large-desktop:h-auto large-desktop:mt-5 rounded-2xl ' src={imagePersonal} alt="" />
                 <div className='mobile:ml-0 mt-4 large-desktop:mt-5 flex flex-col justify-center w-4/5 desktop:w-2/6 desktop:mt-14 large-desktop:w-1/4'>
-                    <p className='text-sm font-title large-desktop:text-base'>Soy un programador especializado en el Desarrollo Frontend, apasionado por crear interfaces web dinámicas, atractivas y centradas en el usuario. Poseo sólidos conocimientos en tecnologías como HTML5, CSS3, JavaScript y frameworks modernos como React y Vue.js. Además, domino herramientas como Tailwind CSS, SASS y sistemas de construcción como Vite y Webpack.
+                    <p className='text-sm font-title large-desktop:text-base'>Soy un profesional con conocimientos técnicos tanto en el <strong>desarrollo de software</strong> como en el <strong>análisis de datos.</strong> Cuento con experiencia en <strong>Power BI, SQL y Python</strong> aplicados al análisis de datos, con capacidad para diseñar dashboards y soluciones de visualización eficientes, integrando múltiples fuentes de información y aplicando principios de desarrollo de software como <strong>reutilización, escalabilidad y mantenimiento.</strong>
                     </p>
+                    <p className="font-title mt-3 text-sm large-desktop:text-base">En el ámbito del desarrollo frontend, tengo experiencia en la construcción de sitios web responsivos utilizando tecnologías como <strong>HTML, CSS, Tailwind, SASS, Vite y Webpack,</strong> además del uso de lenguajes de programacion como <strong>Javascript, TypeScript, Python y SQL.</strong> Tambien estoy familiarizado con la integración de <strong>APIs RESTful</strong> y con metodologías de control de versiones mediante <strong>Git.</strong></p>
                     <p className='mt-3 text-sm font-title large-desktop:text-base'>
-                        Mi experiencia incluye la implementación de diseños responsivos y optimizados para dispositivos móviles, garantizando una experiencia fluida en todas las plataformas. Estoy familiarizado con la integración de APIs RESTful, el uso de TypeScript para mayor robustez en el desarrollo y la gestión de versiones con Git.
-                    </p>
-                    <p className="font-title mt-3 text-sm large-desktop:text-base">
-                        He participado en proyectos destacados donde mejoré el rendimiento de sitios web, optimicé procesos de desarrollo y colaboré estrechamente con equipos de diseño y backend para cumplir con los objetivos del cliente.
+                        Mi enfoque en el análisis de datos está centrado en generar <strong>insights accionables</strong> que impulsen decisiones fundamentadas y alineadas con los <strong>objetivos de la empresa.</strong>
                     </p>
                     <div className='text-center mt-4'>
                         <a className="btn text-base bg-customPrimary font-title font-bold p-2 w-36 hover:text-black hover:bg-customHover" target="_blank" href='https://github.com/MaikolReyes'><i className="fa-brands fa-github p-2"></i>Github</a>
