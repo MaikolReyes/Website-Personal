@@ -1,6 +1,3 @@
-import React from "react";
-import { navItems } from "../resources";
-
 export const Navbar = () => {
 
   return (
@@ -17,13 +14,23 @@ export const Navbar = () => {
 
         <div className="collapse navbar-collapse justify-center desktop:justify-end large-desktop:justify-end" id="navbarNav">
           <ul className="navbar-nav gap-10 large-desktop:gap-7  items-center mobile:gap-10 ">
-            {navItems.map(({ href, text, id }) => (
-              <li className="nav-item" key={id}>
-                <a className="nav-link text-white font-subtitle text-base hover:text-gray-400 relative transition-all duration-350 ease-linear" href={href}>
-                  {text}
-                </a>
-              </li>
-            ))}
+            <li className="nav-item">
+              <a className="nav-link text-white font-subtitle text-base hover:text-gray-400 relative transition-all duration-350 ease-linear" href="#home">
+                Inicio
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link text-white font-subtitle text-base hover:text-gray-400 relative transition-all duration-350 ease-linear" href="#portfolio">
+                Portfolio
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link text-white font-subtitle text-base hover:text-gray-400 relative transition-all duration-350 ease-linear" href="#certifications">
+                Certificaciones
+              </a>
+            </li>
 
             <li >
 

@@ -27,15 +27,17 @@ export const ListSkills = [
   },
   {
     id: 6,
-    name: 'CSS',
+    name: 'HTML5',
     icon: "fa-brands fa-html5 icon",
   },
   {
     id: 7,
+    name: 'CSS3',
     icon: "fa-brands fa-css3-alt icon",
   },
   {
     id: 8,
+    name: 'Git',
     icon: "fa-brands fa-square-git icon",
   },
 ];

@@ -6,7 +6,7 @@ export const Certificates = () => {
 
             <div className='flex items-center flex-col large-desktop:mt-36 mb-4 mt-14' id='certifications' >
                 <h2 className="text-3xl large-desktop:text-4xl font-semibold font-title mb-3">Certificaciones</h2>
-                <p className='text-sm w-4/5 desktop:w-2/5 large-desktop:w-1/3 large-desktop:text-base text-center font-title'>Me complace presentar mis certificaciones en Desarrollo Web, JavaScript y React. Estos logros reflejan mi compromiso, perseverancia y motivación para crecer y convertirme en un excelente desarrollador de software.</p>
+                <p className='text-sm w-4/5 desktop:w-2/5 large-desktop:w-1/3 large-desktop:text-base text-center font-title'>Me complace presentar mis certificaciones en Análisis de datos, SQL, Desarrollo Web, JavaScript y React. Estos logros reflejan mi compromiso, perseverancia y motivación para crecer y convertirme en un excelente analista de datos</p>
             </div>
 
 
@@ -17,7 +17,9 @@ export const Certificates = () => {
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
                 </div>
 
                 <div className="carousel-inner">
