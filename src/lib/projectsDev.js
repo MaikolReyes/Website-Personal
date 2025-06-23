@@ -1,13 +1,13 @@
 export const projectsDev = [
-  {
-    id: 1,
-    name: "FinanceSignal",
-    description:
-      "Es un sitio web de noticias de finanzas y economía que esta realizado con React, TypeScript, Tailwind y Boostraps. Para el backend utilice strapi para crear, gestionar y distribuir los contenidos del sitio.",
-    img: "./img/projects/finance.png",
-    github: "https://github.com/MaikolReyes/FinanceSignal",
-    deploy: "https://www.financessignal.com/",
-  },
+  // {
+  //   id: 1,
+  //   name: "FinanceSignal",
+  //   description:
+  //     "Es un sitio web de noticias de finanzas y economía que esta realizado con React, TypeScript, Tailwind y Boostraps. Para el backend utilice strapi para crear, gestionar y distribuir los contenidos del sitio.",
+  //   img: "./img/projects/finance.png",
+  //   github: "https://github.com/MaikolReyes/FinanceSignal",
+  //   deploy: "https://www.financessignal.com/",
+  // },
   {
     id: 2,
     name: "Zulia Marketing Digital",
