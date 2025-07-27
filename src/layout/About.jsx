@@ -30,9 +30,9 @@ export const About = () => {
                 <h2 className="text-3xl large-desktop:text-4xl font-semibold font-title mt-20 mb-4 desktop:mt-0">Stack</h2>
 
                 <ul className="flex flex-wrap justify-center gap-4 mt-2">
-                    {ListSkills.map(({ icon }, index) => (
+                    {ListSkills.map(({ icon, label }, index) => (
                         <li key={index} className="icons">
-                            <a className="icons-image" ><i className={icon}></i></a>
+                            <a href="#" className="icons-image" aria-label={label} ><i className={icon}></i></a>
                         </li>
                     ))}
                 </ul>

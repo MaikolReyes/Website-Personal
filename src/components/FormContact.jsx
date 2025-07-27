@@ -40,7 +40,7 @@ export const FormContact = () => {
                                     <input required type="text" name="Asunto" id="asunto" />
                                 </p>
                                 <p className="block">
-                                    <label className="text-xs desktop:text-sm large-desktop:text-lg" htmlFor="mensajes">Mensaje</label>
+                                    <label className="text-xs desktop:text-sm large-desktop:text-lg" for="Mensaje">Mensaje</label>
                                     <textarea required name="Mensaje" id="Mensaje" cols="50" rows="1"></textarea>
                                 </p>
                                 <p className="block text-xs desktop:text-sm">

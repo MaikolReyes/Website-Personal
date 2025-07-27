@@ -5,9 +5,14 @@ export const Footer = () => {
   return (
     <footer className="mt-20 bg-dark">
       <ul className="flex justify-center">
-        {redSocials.map(({ id, link, icon }) => (
+        {redSocials.map(({ id, link, icon, label }) => (
           <li className="iconso mb-5 mt-5" key={id}>
-            <a className="icons-image" target="_blank" href={link}>
+            <a 
+            className="icons-image" 
+            target="_blank" 
+            href={link}
+            aria-label={label}
+            >
               <i className={icon}></i>
             </a>
           </li>

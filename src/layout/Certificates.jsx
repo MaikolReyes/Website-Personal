@@ -30,11 +30,11 @@ export const Certificates = () => {
                     ))}
                 </div>
 
-                <button className="carousel-control-prev desktop:w-3/5 large-desktop:w-3/5" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <button className="carousel-control-prev desktop:w-3/5 large-desktop:w-3/5 p-3 w-12 h-12" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon bg-gray-500 rounded-xl w-8 h-10 hover:bg-gray-700" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
                 </button>
-                <button className="carousel-control-next desktop:w-3/5  large-desktop:w-3/5 w-1/5" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <button className="carousel-control-next desktop:w-3/5  large-desktop:w-3/5 p-3 w-12 h-12" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
                     <span className="carousel-control-next-icon bg-gray-500 rounded-xl w-8 h-10 hover:bg-gray-700" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
