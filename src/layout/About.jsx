@@ -2,7 +2,7 @@ import { ListSkills } from "../resources"
 
 export const About = () => {
 
-    const imagePersonal = "../img/perfil.jpg"
+    const imagePersonal = "../img/profesional.png"
 
     return (
         <>
@@ -12,17 +12,25 @@ export const About = () => {
 
             <div className='flex justify-center items-center flex-col tablet:flex-row tablet:gap-14'>
 
-                <img className='max-w-96 h-72 mt-3 desktop:h-96 large-desktop:h-auto large-desktop:mt-5 rounded-2xl ' src={imagePersonal} alt="" />
-                <div className='mt-5 large-desktop:mt-5 flex flex-col desktop:justify-center w-4/5 desktop:w-2/5 large-desktop:w-1/4 h-72'>
+                <div className="flex flex-col">
+
+                    <img className='h-96 rounded-xl ' src={imagePersonal} alt="imagen perfil" />
+
+                    <div className='text-center mt-2'>
+                        <a className="btn text-base bg-customPrimary font-title font-bold w-full hover:text-black hover:bg-customHover" target="_blank" href='https://github.com/MaikolReyes'>
+                            <i className="fa-brands fa-github p-2"></i>
+                            Github
+                        </a>
+                    </div>
+                </div>
+
+                <div className='flex flex-col text-center desktop:justify-center w-4/5 desktop:w-2/5 large-desktop:w-[600px] '>
                     <p className='text-sm font-title large-desktop:text-base'>Soy un profesional con conocimientos técnicos tanto en el <strong>desarrollo de software</strong> como en el <strong>análisis de datos.</strong> Cuento con experiencia en <strong>Power BI, SQL y Python</strong> aplicados al análisis de datos, con capacidad para diseñar dashboards y soluciones de visualización eficientes, integrando múltiples fuentes de información y aplicando principios de desarrollo de software como <strong>reutilización, escalabilidad y mantenimiento.</strong>
                     </p>
                     <p className="font-title mt-3 text-sm large-desktop:text-base">En el ámbito del desarrollo frontend, tengo experiencia en la construcción de sitios web responsivos utilizando tecnologías como <strong>HTML, CSS, Tailwind, SASS, Vite y Webpack,</strong> además del uso de lenguajes de programacion como <strong>Javascript, TypeScript, Python y SQL.</strong> Tambien estoy familiarizado con la integración de APIs RESTful y con metodologías de control de versiones mediante <strong>Git.</strong></p>
                     <p className='mt-3 text-sm font-title large-desktop:text-base'>
                         Mi enfoque en el análisis de datos está centrado en generar <strong>insights accionables</strong> que impulsen decisiones fundamentadas y alineadas con los <strong>objetivos de la empresa.</strong>
                     </p>
-                    <div className='text-center mt-4'>
-                        <a className="btn text-base bg-customPrimary font-title font-bold p-2 w-36 hover:text-black hover:bg-customHover" target="_blank" href='https://github.com/MaikolReyes'><i className="fa-brands fa-github p-2"></i>Github</a>
-                    </div>
                 </div>
             </div>
 
@@ -31,8 +39,9 @@ export const About = () => {
 
                 <ul className="flex flex-wrap justify-center gap-4 mt-2">
                     {ListSkills.map(({ icon, label }, index) => (
-                        <li key={index} className="icons">
+                        <li key={index} className="icons text-center">
                             <a href="#" className="icons-image" aria-label={label} ><i className={icon}></i></a>
+                            <p className="font-title text-sm mt-2">{label}</p>
                         </li>
                     ))}
                 </ul>
