@@ -25,16 +25,16 @@ export const Certificates = () => {
                 <div className="carousel-inner">
                     {certificates.map(({ href, description }, index) => (
                         <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
-                            <img src={href} className=" block m-auto desktop:w-1/2 large-desktop:w-1/3 rounded-xl shadow-lg w-3/4" alt={description} />
+                            <img src={href} className="block m-auto desktop:w-1/2 large-desktop:w-1/3 rounded-xl shadow-lg w-3/4" alt={description} />
                         </div>
                     ))}
                 </div>
 
-                <button className="carousel-control-prev desktop:w-3/5 large-desktop:w-3/5 p-3 w-12 h-12" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <button className="carousel-control-prev desktop:w-2/5 large-desktop:w-3/5 p-3 w-12" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon bg-gray-500 rounded-xl w-8 h-10 hover:bg-gray-700" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
                 </button>
-                <button className="carousel-control-next desktop:w-3/5  large-desktop:w-3/5 p-3 w-12 h-12" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <button className="carousel-control-next desktop:w-2/5  large-desktop:w-3/5 p-3 w-12" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
                     <span className="carousel-control-next-icon bg-gray-500 rounded-xl w-8 h-10 hover:bg-gray-700" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
