@@ -6,7 +6,7 @@ export const ProjectsDevs = () => {
             <div className="flex flex-col items-center mt-10 tablet:mt-20" id="portfolio" >
                 <h2 className="text-xl desktop:text-3xl font-semibold font-title">Proyectos en Programación</h2>
 
-                <p className="w-3/4 text-sm m-4 large-desktop:text-base font-title text-center desktop:w-2/5 large-desktop:w-1/4">Te invito a echar un vistazo a mi recorrido en el mundo del desarrollo front-end. Cada proyecto que encontrarás aquí es una pieza clave en mi aprendizaje y evolución. ¡Espero que disfrutes explorando mis creaciones tanto como yo disfruté creándolas!</p>
+                <p className="w-3/4 text-sm m-4 large-desktop:text-base font-title text-center desktop:w-2/5">Te invito a echar un vistazo a mi recorrido en el mundo del desarrollo front-end. Cada proyecto que encontrarás aquí es una pieza clave en mi aprendizaje y evolución. ¡Espero que disfrutes explorando mis creaciones tanto como yo disfruté creándolas!</p>
             </div>
 
             {

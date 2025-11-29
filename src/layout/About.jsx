@@ -10,7 +10,7 @@ export const About = () => {
                 <h2 className='mt-16 mb-10 title-about text-3xl large-desktop:text-4xl font-semibold font-title tablet:mt-28 tablet:mb-10'>Acerca de mi</h2>
             </div>
 
-            <div className='flex justify-center items-center flex-col tablet:flex-row tablet:gap-14'>
+            <div className='flex flex-col justify-center items-center tablet:flex-row tablet:gap-14'>
 
                 <div className="flex flex-col mb-10 tablet:mb-0">
 

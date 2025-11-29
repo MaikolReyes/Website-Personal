@@ -46,7 +46,7 @@ export const FormContact = () => {
                                 </p>
                                 <p className="block text-xs desktop:text-sm">
                                     <button className="p-2" type="submit">Enviar</button>
-                                    <input type="hidden" name="_next" value="https://maikolreyes.com.ar/" />
+                                    <input type="hidden" name="_next" value="https://maikol.netlify.app/" />
                                     <input type="hidden" name="_captcha" value='false' />
                                 </p>
                             </form>

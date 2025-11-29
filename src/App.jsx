@@ -1,6 +1,7 @@
 
 import { About, Certificates, Hero, ProjectsAnalyst, ProjectsDevs } from "./layout"
 import { Footer, FormContact, Navbar } from './components';
+import { ServicesCarousel } from "./layout/Services";
 
 export const App = () => {
     return (
@@ -11,9 +12,11 @@ export const App = () => {
 
             <About />
 
-            <ProjectsAnalyst />
+            <ServicesCarousel />
 
             <ProjectsDevs />
+
+            <ProjectsAnalyst />
 
             <Certificates />
 
