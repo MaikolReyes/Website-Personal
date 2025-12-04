@@ -24,7 +24,7 @@ export const ProjectsAnalyst = () => {
 
                             <div className="m-0 flex justify-center gap-3 p-3 tablet:mt-3">
 
-                                <a className="btn text-sm bg-customPrimary font-title font-bold p-2 hover:text-black hover:bg-customHover desktop:w-36 desktop:text-base" target="_blank" href={deploy}><i className="fa-solid fa-arrow-up-right-from-square p-2"></i>Deploy</a>
+                                {/* <a className="btn text-sm bg-customPrimary font-title font-bold p-2 hover:text-black hover:bg-customHover desktop:w-36 desktop:text-base" target="_blank" href={deploy}><i className="fa-solid fa-arrow-up-right-from-square p-2"></i>Deploy</a> */}
 
                                 <a className="btn text-sm bg-customPrimary font-title font-bold p-2 hover:text-black hover:bg-customHover desktop:w-36 desktop:text-base" target="_blank" href={github} ><i className=" fa-brands fa-github p-2"></i>Github</a>
 
