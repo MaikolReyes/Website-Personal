@@ -15,7 +15,7 @@ export const projectsDev = [
       "Es un sitio web para una agencia de marketing digital que ofrece servicios de desarrollo web y publicidad en RRSS. Esta realizada con React, TypeScript, SASS y Boostraps para los estilos.",
     img: "./img/projects/zmd.png",
     github: "https://github.com/MaikolReyes/Zulia-Marketing-Digital",
-    deploy: "https://zuliamkt.netlify.app/",
+    deploy: "https://zulia-marketing-digital.onrender.com/",
   },
   {
     id: 3,
