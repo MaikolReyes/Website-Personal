@@ -10,6 +10,15 @@ export const projectsDev = [
   },
   {
     id: 2,
+    name: "Set Tenis",
+    description:
+      "Sitio ecommerce para tienda de remeras de tenis y pádel, diseñado para exhibir los productos de forma clara y ordenada. La tienda permite realizar compras de manera simple y rápida, ofreciendo una experiencia práctica para el usuario.",
+    img: "./img/projects/settenis.png",
+    github: "https://github.com/MaikolReyes",
+    deploy: "https://tiendasettenis.com.ar/",
+  },
+  {
+    id: 2,
     name: "Zulia Marketing Digital",
     description:
       "Es un sitio web para una agencia de marketing digital que ofrece servicios de desarrollo web y publicidad en RRSS. Esta realizada con React, TypeScript, SASS y Boostraps para los estilos.",
