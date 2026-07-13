@@ -14,9 +14,9 @@ export const App = () => {
 
             <ServicesCarousel />
 
-            <ProjectsDevs />
-
             <ProjectsAnalyst />
+
+            <ProjectsDevs />
 
             <Certificates />
 

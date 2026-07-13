@@ -26,11 +26,13 @@ export const About = () => {
 
                 <div className='flex flex-col w-4/5 desktop:w-2/5 large-desktop:w-[600px] h-80 large-desktop:h-96'>
 
-                    <p className='text-sm font-title large-desktop:text-base'>Soy un profesional con conocimientos técnicos tanto en el <strong>desarrollo de software</strong> como en el <strong>análisis de datos.</strong> Cuento con experiencia en <strong>Power BI, SQL y Python</strong> aplicados al análisis de datos, con capacidad para diseñar dashboards y soluciones de visualización eficientes, integrando múltiples fuentes de información y aplicando principios de desarrollo de software como <strong>reutilización, escalabilidad y mantenimiento.</strong>
+                    <p className='text-sm font-title large-desktop:text-base'>Soy Analista de Pricing y estudiante de la Licenciatura en Economía, con interés en el análisis de datos, Business Intelligence y la toma de decisiones basada en evidencia. Cuento con experiencia en el análisis de información comercial utilizando Power BI, SQL, Python y Excel, transformando grandes volúmenes de datos en indicadores y visualizaciones que facilitan el seguimiento del negocio y la identificación de oportunidades de mejora.
                     </p>
-                    <p className="font-title mt-3 text-sm large-desktop:text-base">En el ámbito del desarrollo frontend, tengo experiencia en la construcción de sitios web responsivos utilizando tecnologías como <strong>HTML, CSS, Tailwind, SASS, Vite y Webpack,</strong> además del uso de lenguajes de programacion como <strong>Javascript, TypeScript, Python y SQL.</strong> Tambien estoy familiarizado con la integración de APIs RESTful y con metodologías de control de versiones mediante <strong>Git.</strong></p>
+
+                    <p className="font-title mt-3 text-sm large-desktop:text-base">Complemento mi perfil con conocimientos de programación y desarrollo de soluciones de datos, lo que me permite automatizar procesos, integrar distintas fuentes de información y construir reportes escalables y mantenibles. También poseo experiencia en el uso de Git para el control de versiones y en el consumo de APIs para la obtención y procesamiento de datos.</p>
+
                     <p className='mt-3 text-sm font-title large-desktop:text-base'>
-                        Mi enfoque en el análisis de datos está centrado en generar <strong>insights accionables</strong> que impulsen decisiones fundamentadas y alineadas con los <strong>objetivos de la empresa.</strong>
+                        Mi formación en Economía fortalece mi capacidad para interpretar la información desde una perspectiva estratégica, combinando análisis cuantitativo, comprensión del negocio y pensamiento crítico para generar insights que contribuyan a la toma de decisiones y a la mejora del desempeño empresarial.
                     </p>
                 </div>
             </div>
