@@ -15,6 +15,7 @@ export const Hero = () => {
                     <a className='btn text-base bg-customPrimary font-title font-bold p-2 w-36 tablet:w-44 hover:text-black hover:bg-customHover' href="https://wa.link/l5si8o" target='_blank'><i className="fa-brands fa-whatsapp m-1"></i>WhatsApp</a>
 
                     <a className='btn text-base bg-customPrimary font-title font-bold p-2 w-36 tablet:w-44 hover:text-black hover:bg-customHover' href='CV-Maikol-BI.pdf' target='_blank'><i className="fa-regular fa-file m-1"></i>CV</a>
+
                 </div>
             </div>
         </div>
